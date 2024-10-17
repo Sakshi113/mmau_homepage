@@ -1,0 +1,497 @@
+{
+    "leaderboardData": [
+      {
+        "info": {
+          "name": "Random Guess",
+          "size": "-",
+          "type": "random_guess"
+        },
+        "Sound": {
+          "Test-mini": "26.72",
+          "Test": "25.73"
+        },
+        "Music": {
+          "Test-mini": "24.55",
+          "Test": "26.53"
+        },
+        "Speech": {
+          "Test-mini": "26.72",
+          "Test": "25.50"
+        },
+        "Avg": {
+          "Test-mini": "26.00",
+          "Test": "25.92"
+        }
+      },
+      {
+        "info": {
+          "name": "Most Frequent Choice",
+          "size": "-",
+          "type": "most_frequent_choice"
+        },
+        "Sound": {
+          "Test-mini": "27.02",
+          "Test": "25.73"
+        },
+        "Music": {
+          "Test-mini": "20.35",
+          "Test": "23.73"
+        },
+        "Speech": {
+          "Test-mini": "29.12",
+          "Test": "30.33"
+        },
+        "Avg": {
+          "Test-mini": "25.50",
+          "Test": "26.50"
+        }
+      },
+      {
+        "info": {
+          "name": "Human (test-mini)",
+          "size": "-",
+          "type": "human"
+        },
+        "Sound": {
+          "Test-mini": "86.31",
+          "Test": "-"
+        },
+        "Music": {
+          "Test-mini": "78.22",
+          "Test": "-"
+        },
+        "Speech": {
+          "Test-mini": "82.17",
+          "Test": "-"
+        },
+        "Avg": {
+          "Test-mini": "82.23",
+          "Test": "-"
+        }
+      },
+      {
+        "info": {
+          "name": "Pengi",
+          "size": "323M",
+          "type": "LALM",
+          "link": "https://huggingface.co/Pengi"  
+        },
+        "Sound": {
+          "Test-mini": "6.10",
+          "Test": "8.00"
+        },
+        "Music": {
+          "Test-mini": "2.90",
+          "Test": "3.05"
+        },
+        "Speech": {
+          "Test-mini": "1.20",
+          "Test": "1.50"
+        },
+        "Avg": {
+          "Test-mini": "3.40",
+          "Test": "4.18"
+        }
+      },
+      {
+        "info": {
+          "name": "Audio Flamingo Chat",
+          "size": "2.2B",
+          "type": "LALM",
+          "link": "https://huggingface.co/Audio-Flamingo-Chat"  
+        },
+        "Sound": {
+          "Test-mini": "23.42",
+          "Test": "28.26"
+        },
+        "Music": {
+          "Test-mini": "15.26",
+          "Test": "18.20"
+        },
+        "Speech": {
+          "Test-mini": "11.41",
+          "Test": "10.16"
+        },
+        "Avg": {
+          "Test-mini": "16.69",
+          "Test": "18.87"
+        }
+      },
+      {
+        "info": {
+          "name": "LTU",
+          "size": "7B",
+          "type": "LALM",
+          "link": "https://huggingface.co/LTU"  
+        },
+        "Sound": {
+          "Test-mini": "22.52",
+          "Test": "25.86"
+        },
+        "Music": {
+          "Test-mini": "9.69",
+          "Test": "12.83"
+        },
+        "Speech": {
+          "Test-mini": "17.71",
+          "Test": "16.37"
+        },
+        "Avg": {
+          "Test-mini": "16.89",
+          "Test": "18.51"
+        }
+      },
+      {
+        "info": {
+          "name": "LTU AS",
+          "size": "7B",
+          "type": "LALM",
+          "link": "https://huggingface.co/LTU"  
+        },
+        "Sound": {
+          "Test-mini": "23.35",
+          "Test": "24.96"
+        },
+        "Music": {
+          "Test-mini": "9.10",
+          "Test": "10.46"
+        },
+        "Speech": {
+          "Test-mini": "20.60",
+          "Test": "21.30"
+        },
+        "Avg": {
+          "Test-mini": "17.68",
+          "Test": "18.90"
+        }
+      },
+      {
+        "info": {
+          "name": "MusiLingo",
+          "size": "7B",
+          "type": "unknown"
+        },
+        "Sound": {
+          "Test-mini": "23.12",
+          "Test": "27.76"
+        },
+        "Music": {
+          "Test-mini": "03.96",
+          "Test": "06.00"
+        },
+        "Speech": {
+          "Test-mini": "05.88",
+          "Test": "06.42"
+        },
+        "Avg": {
+          "Test-mini": "10.98",
+          "Test": "13.39"
+        }
+      },
+      {
+        "info": {
+          "name": "MuLLaMa",
+          "size": "7B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "40.84",
+          "Test": "44.80"
+        },
+        "Music": {
+          "Test-mini": "32.63",
+          "Test": "30.63"
+        },
+        "Speech": {
+          "Test-mini": "22.22",
+          "Test": "16.56"
+        },
+        "Avg": {
+          "Test-mini": "31.90",
+          "Test": "30.66"
+        }
+      },
+      {
+        "info": {
+          "name": "M2UGen",
+          "size": "7B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "03.60",
+          "Test": "03.69"
+        },
+        "Music": {
+          "Test-mini": "32.93",
+          "Test": "30.40"
+        },
+        "Speech": {
+          "Test-mini": "06.36",
+          "Test": "04.53"
+        },
+        "Avg": {
+          "Test-mini": "14.28",
+          "Test": "12.87"
+        }
+      },
+      {
+        "info": {
+          "name": "GAMA",
+          "size": "7B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "41.44",
+          "Test": "45.40"
+        },
+        "Music": {
+          "Test-mini": "32.33",
+          "Test": "30.83"
+        },
+        "Speech": {
+          "Test-mini": "18.91",
+          "Test": "19.21"
+        },
+        "Avg": {
+          "Test-mini": "30.90",
+          "Test": "31.81"
+        }
+      },
+      {
+        "info": {
+          "name": "GAMA-IT",
+          "size": "7B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "43.24",
+          "Test": "43.23"
+        },
+        "Music": {
+          "Test-mini": "28.44",
+          "Test": "28.00"
+        },
+        "Speech": {
+          "Test-mini": "18.91",
+          "Test": "15.84"
+        },
+        "Avg": {
+          "Test-mini": "30.20",
+          "Test": "29.02"
+        }
+      },
+      {
+        "info": {
+          "name": "Qwen-Audio-Chat",
+          "size": "8.4B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "55.25",
+          "Test": "56.73"
+        },
+        "Music": {
+          "Test-mini": "44.00",
+          "Test": "40.90"
+        },
+        "Speech": {
+          "Test-mini": "30.03",
+          "Test": "27.95"
+        },
+        "Avg": {
+          "Test-mini": "43.10",
+          "Test": "41.86"
+        }
+      },
+      {
+        "info": {
+          "name": "Qwen2-Audio",
+          "size": "8.4B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "07.50",
+          "Test": "08.20"
+        },
+        "Music": {
+          "Test-mini": "05.14",
+          "Test": "06.16"
+        },
+        "Speech": {
+          "Test-mini": "03.10",
+          "Test": "04.24"
+        },
+        "Avg": {
+          "Test-mini": "05.24",
+          "Test": "06.20"
+        }
+      },
+      {
+        "info": {
+          "name": "Qwen2-Audio-Instruct",
+          "size": "8.4B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "54.95",
+          "Test": "45.90"
+        },
+        "Music": {
+          "Test-mini": "50.98",
+          "Test": "53.26"
+        },
+        "Speech": {
+          "Test-mini": "42.04",
+          "Test": "45.90"
+        },
+        "Avg": {
+          "Test-mini": "49.20",
+          "Test": "52.50"
+        }
+      },
+      {
+        "info": {
+          "name": "SALAMONN",
+          "size": "13B",
+          "type": "LLM"
+        },
+        "Sound": {
+          "Test-mini": "41.00",
+          "Test": "40.30"
+        },
+        "Music": {
+          "Test-mini": "34.80",
+          "Test": "33.76"
+        },
+        "Speech": {
+          "Test-mini": "25.50",
+          "Test": "24.24"
+        },
+        "Avg": {
+          "Test-mini": "33.70",
+          "Test": "32.77"
+        }
+      },
+      {
+        "info": {
+          "name": "Gemini Pro v1.5",
+          "size": "-",
+          "type": "LALM",
+          "link": "https://huggingface.co/Gemini-Pro"  
+        },
+        "Sound": {
+          "Test-mini": "56.75",
+          "Test": "54.46"
+        },
+        "Music": {
+          "Test-mini": "49.40",
+          "Test": "48.56"
+        },
+        "Speech": {
+          "Test-mini": "58.55",
+          "Test": "55.90"
+        },
+        "Avg": {
+          "Test-mini": "54.90",
+          "Test": "52.97"
+        }
+      },
+      {
+        "info": {
+          "name": "GPT4o + weak cap.",
+          "size": "-",
+          "type": "LLM",
+          "link": "https://huggingface.co/GPT4o-weak-cap"  
+        },
+        "Sound": {
+          "Test-mini": "39.33",
+          "Test": "35.80"
+        },
+        "Music": {
+          "Test-mini": "41.90",
+          "Test": "39.52"
+        },
+        "Speech": {
+          "Test-mini": "58.25",
+          "Test": "68.27"
+        },
+        "Avg": {
+          "Test-mini": "45.70",
+          "Test": "48.65"
+        }
+      },
+      {
+        "info": {
+          "name": "GPT4o + strong cap.",
+          "size": "-",
+          "type": "LLM",
+          "link": "https://huggingface.co/GPT4o-strong-cap"  
+        },
+        "Sound": {
+          "Test-mini": "57.35",
+          "Test": "55.83"
+        },
+        "Music": {
+          "Test-mini": "49.70",
+          "Test": "51.73"
+        },
+        "Speech": {
+          "Test-mini": "64.86",
+          "Test": "68.66"
+        },
+        "Avg": {
+          "Test-mini": "57.30",
+          "Test": "58.74"
+        }
+      },
+      {
+        "info": {
+          "name": "Llama-3-Ins. + weak cap.",
+          "size": "8B",
+          "type": "LLM",
+          "link": "https://huggingface.co/Llama-3-weak-cap"  
+        },
+        "Sound": {
+          "Test-mini": "34.23",
+          "Test": "33.73"
+        },
+        "Music": {
+          "Test-mini": "38.02",
+          "Test": "42.36"
+        },
+        "Speech": {
+          "Test-mini": "54.05",
+          "Test": "61.54"
+        },
+        "Avg": {
+          "Test-mini": "42.10",
+          "Test": "45.87"
+        }
+      },
+      {
+        "info": {
+          "name": "Llama-3-Ins. + strong cap.",
+          "size": "8B",
+          "type": "LLM",
+          "link": "https://huggingface.co/Llama-3-strong-cap"  
+        },
+        "Sound": {
+          "Test-mini": "50.75",
+          "Test": "49.10"
+        },
+        "Music": {
+          "Test-mini": "48.93",
+          "Test": "48.93"
+        },
+        "Speech": {
+          "Test-mini": "55.25",
+          "Test": "62.70"
+        },
+        "Avg": {
+          "Test-mini": "52.10",
+          "Test": "53.57"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark</title>
+  <link rel="icon" type="image/x-icon" href="static/images/mmau_logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              <img src="static/images/mmau_logo.png" alt="Logo" class="mmmu-logo" style="width: 1em; height: auto;"/>
+              <span class="mmmu">MMAU</span>
+            </h1>
+            <h2 class="subtitle is-3 publication-subtitle">
+              A Massive Multi-Task Audio Understanding and Reasoning Benchmark
+              </h2>
+            <meta name="description"
+              content="A Massive Multi-Task Audio Understanding and Reasoning Benchmark">
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Anonymous</a><sup>*</sup></span>
+                <!-- <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                  </span> -->
+                  </div>
+
+                  <!-- <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div> -->
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop has-text-centered">
+    <img src="static/images/mmau_hero_page-0001.jpg" alt="geometric reasoning">
+    <p>Overview of the MMAU dataset.
+    </p>
+  </div>
+</section>
+<br>
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+        <!-- Your video here -->
+        <!-- <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- DATASET SECTION -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mmmu">
+      <img src="static/images/mmau_logo.png" alt="Logo" class="mmmu-logo" style="width: 1em; height: auto;"/>
+      <span class="mmmu">MMAU Benchmark</span>
+    </h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present MMAU: a novel benchmark designed to evaluate mul-
+            timodal audio understanding models on tasks requiring expert-level knowledge
+            and complex reasoning. MMAU comprises 10k carefully curated audio clips
+            paired with human-annotated natural language questions and answers spanning
+            speech, environmental sounds, and music. It features 27 diverse tasks, includ-
+            ing 12 information-retrieval types 1 and 15 reasoning types 2, challenging mod-
+            els to perform at the level of human experts in complex, multimodal audio un-
+            derstanding. Unlike existing benchmarks, MMAU emphasizes advanced percep-
+            tion and reasoning with domain-specific knowledge, challenging models to tackle
+            tasks akin to those faced by experts. We assess 18 open-source and proprietary
+            (Large) Audio-Language Models, demonstrating the significant challenges posed
+            by MMAU. Notably, even the most advanced Gemini 1.5 achieves only 66.15%
+            accuracy, and the state-of-the-art open-source Qwen2-Audio achieves only 55.4%,
+            highlighting considerable room for improvement. We believe MMAU will drive
+            the audio and multimodal research community to develop more advanced audio
+            understanding models capable of solving complex audio tasks.          </p>
+          <img src="static/images/mmau-fig2-resize-crop_page-0001.jpg" alt="algebraic reasoning" class="center">
+          <br>
+          <p>
+            MMAU is uniquely designed to test LALMs’ advanced cognitive abilities, challenging
+            models with questions that require complex, deliberate reasoning and knowledge retrieval grounded
+            in audio perception. To our knowledge, MMAU stands as the first comprehensive benchmark to
+            rigorously assess these capabilities, filling a critical gap in the evaluation of LALMs.          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Comparisons with Other Benchmarks</h2>
+        <div class="content has-text-justified">
+          <p>
+            To further distinguish the difference between <i>dataset</i> and other existing ones, we elaborate the benchmark details in Figure.
+            From the <i>breadth</i> perspective, prior benchmarks are often restricted to specific domains and question types.
+            The covered image format is also limited.
+          </p>
+          <div class="content has-text-centered">
+            <img src="static/images/mmau_comparision_table.jpg" alt="algebraic reasoning" class="center" style="width: auto; height: 300px; margin-right: 20px;">
+            <!-- <img src="static/images/chart2-crop_page-0001.jpg" alt="algebraic reasoning" class="center" style="width: auto; height: 300px; margin-right: 20px;"> -->
+            <p> Comparison of MMAU with existing audio understanding and reasoning benchmarks across
+              various statistics. MMAU covers all three domains—speech, sound, and music—while having the
+              highest number of information-extraction and complex reasoning tasks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    
+    <div class="columns is-centered has-text-centered">
+      
+      <!-- Pop-out box effect for the table -->
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">
+          <img src="static/images/QA_icon3.png" alt="Logo" class="mmmu-logo" style="width: 1em; height: auto;"/>
+          <span class="mmmu">Complex AQA</span>
+        </h2>
+        <div class="box" style="border: 2px solid #ddd; padding: 20px;">
+          <div class="table-responsive">
+            <table class="table is-bordered is-striped" style="width: 100%; border-collapse: collapse;">
+              <thead>
+                <tr>
+                  <th style="text-align: center; font-weight: bold; padding: 10px;">Audio</th>
+                  <th style="text-align: center; font-weight: bold; padding: 10px;">Options</th>
+                  <th style="text-align: center; font-weight: bold; padding: 10px;">Answer</th>
+                  <th style="text-align: center; font-weight: bold; padding: 10px;">Qwen2-Audio</th>
+                  <th style="text-align: center; font-weight: bold; padding: 10px;">Gemini</th>
+                </tr>
+              </thead>
+            <tbody>
+              <tr style="height: 120px;">
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  <audio controls controlslist="nodownload" class="px-1">
+                    <source src="static/wav_files/00050.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <br><br> <b>Question:</b> From the given utterance, Count the number of words that contain at least one stressed phoneme
+                  <br><br> <b>Audio Id:</b> 00050
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  ["two",
+                  "one",
+                  "thirteen",
+                  "four"]
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  two
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  four
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  thirteen
+                </td>
+              </tr>
+              <tr style="height: 120px;">
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  <audio controls controlslist="nodownload" class="px-1">
+                    <source src="static/wav_files/1_537.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <br><br> <b>Question:</b> Why can the last line be interpreted as sarcastic?
+                  <br><br> <b>Audio Id:</b> 1_537
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  ["Sheldon always gets mail first.",
+                  "Penny dislikes reading magazines.",
+                  "Sheldon is uninterested in physics.",
+                  "Penny loves physics journals."]
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Sheldon is uninterested in physics.
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Penny loves physics journals.
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Penny dislikes reading magazines.
+                </td>
+              </tr>
+              <tr style="height: 120px;">
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  <audio controls controlslist="nodownload" class="px-1">
+                    <source src="static/wav_files/zopos1B6Elc.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <br><br> <b>Question:</b> What primary element is featured in the foreground of the audio?
+                  <br><br> <b>Audio Id:</b> zopos1B6Elc
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  ["Digital clicking sounds",
+                  "String instruments",
+                  "Percussion beats",
+                  "Vocal harmonies"]
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Digital clicking sounds.
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  String instruments.
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Vocal harmonies.
+                </td>
+              </tr>
+              <tr style="height: 120px;">
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  <audio controls controlslist="nodownload" class="px-1">
+                    <source src="static/wav_files/1066198.2min.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <br><br> <b>Question:</b> How does the interaction between different octaves in the piano contribute to the mood?
+                  <br><br> <b>Audio Id:</b> 1066198.2min
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  ["Adds a touch of comedy",
+                  "Creates harmony and peace",
+                  "Emphasizes a romantic connection",
+                  "Builds tension and conflict"]
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Builds tension and conflict.
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Creates harmony and peace.
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  Creates harmony and peace.
+                </td>
+              </tr>
+
+
+
+
+              <tr style="height: 120px;">
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  <audio controls controlslist="nodownload" class="px-1">
+                    <source src="static/wav_files/4.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                  <br><br> <b>Question:</b> How many speakers are present in this conversation?
+                  <br><br> <b>Audio Id:</b> 4
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  ["three", "four", "six", "five"]
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  three
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  five
+                </td>
+                <td style="text-align: center; vertical-align: middle; padding: 15px;">
+                  XYZ
+                </td>
+              </tr>
+              
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <br>
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mmmu">
+      <span class="mmmu">Experiment Results</span>
+    </h1>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <!-------------------------------------------------------------------- RESULTS SECTION -------------------------------------------------------------------->
+    <div class="column is-four-fifths">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
+        <div class="content has-text-centered">
+          <p>
+            We evaluate various models including LALMs and LLMs.
+            In each type, we consider both closed- and open-source models.
+        </div>
+        <!-- <div class="model-labels-container">
+          <span class="leaderboard-label human_expert">Human Expert</span>
+          <span class="leaderboard-label open_source">Open-Source</span>
+          <span class="leaderboard-label proprietary">Proprietary</span>
+        </div> -->
+        <div class="content has-text-centered">
+        </div>
+        <div class="leaderboard-container">
+          <div class="table-wrapper">
+            <table id="leaderboard" class="table" style="width: 100%; border-collapse: collapse;">
+              <thead>
+                <tr>
+                  <th colspan="3.95" style="text-align: right;">Sound</th>
+                  <th colspan="4">Music</th>
+                  <th style="text-align: left;">Speech</th>
+                  <th colspan="3">Avg</th>
+                </tr>
+                <tr>
+                  <th>Name</th>
+                  <th>Size</th>
+                  <th>Test-mini</th>
+                  <th>Test</th>
+                  <th>Test-mini</th>
+                  <th>Test</th>
+                  <th>Test-mini</th>
+                  <th>Test</th>
+                  <th>Test-mini</th>
+                  <th>Test</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Table body will be populated dynamically -->
+              </tbody>
+            </table>
+            <p class="test-desc"> Overall results of different models on the MMAU leaderboard. The best-performing model in each category is <b>in-bold</b>, and the second best is <u>underlined</u>. *: results provided by the authors.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------------------------------------- Image Type SECTION -------------------------------------------------------------------->
+    <!-- <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Different Image Types</h2>
+        <div class="content has-text-justified">
+          <p>
+            We compare the performance of various models across top frequent image types.
+            Across all types, GPT-4V consistently outperforms the other models by a huge margin.
+            Open-source models demonstrate relatively strong performance in categories like Photos and Paintings, which are more frequently seen during training.
+            However, for less common image categories like Geometric shapes, Music sheets and Chemical structures, all models obtain very low scores (some are close to random guesses).
+            This indicates that the existing models are generalizing poorly towards these image types.
+          </p>
+        </div>
+        <div class="model-labels-container">
+          <span class="model-label" style="background-color: rgba(196, 123, 160, 0.5);">Adept Fuyu-8B</span>
+          <span class="model-label" style="background-color: rgba(245, 123, 113, 0.5);">Qwen-VL-7B-Chat</span>
+          <span class="model-label" style="background-color: rgba(255, 208, 80, 0.5);">LLaVA-1.5-13B</span>
+          <span class="model-label" style="background-color: rgba(110, 194, 134, 0.5);">InstructBLIP-T5-XXL</span>
+          <span class="model-label" style="background-color: rgba(255, 153, 78, 0.5);">BLIP-2 FLAN-T5-XXL</span>
+          <span class="model-label" style="background-color: rgba(42, 149, 235, 0.5);">Yi-VL-34B</span>
+          <span class="model-label" style="background-color: rgba(183, 156, 220, 0.5);">LLaVA-1.6-34B</span>
+          <span class="model-label" style="background-color: rgba(143, 169, 209, 0.5);">InternVL-Chat-V1.2</span>
+          <span class="model-label" style="background-color: rgba(72, 199, 176, 0.5);">VILA1.5</span>
+          <span class="model-label" style="background-color: rgba(117, 209, 215, 0.5);">GPT-4V</span>
+        </div> -->
+        <!-- <div class="content has-text-centered">
+          <div class="chart-grid"> -->
+            <!-- Chart 30: Advertisements -->
+            <!-- <div class="chart-item">
+              <canvas id="chart_Advertisements"></canvas>
+              <p class="chart-label">Advertisements (10)</p>
+            </div>
+          </div>
+          <p class="bottom-text"> Selected models' performance on 30 different image types. Note that a single image may have multiple image types.</p>
+        </div>
+      </div>
+    </div> -->
+    <!-------------------------------------------------------------------- Difficulty Levels SECTION -------------------------------------------------------------------->
+    <!-- <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Different Difficulty Levels</h2>
+        <div class="content has-text-justified">
+          <p>
+            we compares the performance of selected models across three difficulty levels.
+            GPT-4V demonstrates a significantly higher proficiency, with a success rate of 76.1%, compared to opensource models in the “Easy” category.
+            When it comes to the “Medium” category, while the gap narrows, GPT-4V still leads at 55.6%.
+            The further diminishing performance gap in the “Hard” category across models indicates that as the complexity of tasks increases, the advantage of more advanced models like GPT-4V almost disappears.
+            This might reflect a current limitation in handling expert-level challenging queries even for the most advanced models.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <p>Click legend to switch the comparison chart.</p>
+        </div>
+        <div class="content has-text-centered">
+          <canvas id="difficulty_level_chart"></canvas>
+          <p>Result decomposition across question difficulty levels.</p>
+        </div>
+      </div>
+    </div> -->
+  <!-------------------------------------------------------------------- Single VS Multiple image SECTION -------------------------------------------------------------------->
+    <!-- <div class="columns is-centered m-6">
+    <div class="column is-full has-text-centered content">
+      <h2 class="title is-3">Single Image VS Multiple Image</h2>
+      <div class="content has-text-centered">
+        <div class="content has-text-centered">
+          <p>Click legend to switch the comparison chart.</p>
+        </div>
+        <canvas id="single_vs_multiple_chart"></canvas>
+        <p>Result decomposition across single image and multiple image tasks.</p>
+      </div>
+    </div>
+    </div> -->
+  <!-------------------------------------------------------------------- Error Analysis SECTION -------------------------------------------------------------------->
+    <!-- <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Error Analysis</h2>
+        <div class="content has-text-justified">
+          <p>
+            We delve into the analysis of errors by GPT-4V, a pivotal aspect for understanding its operational capabilities and limitations.
+            This analysis serves not only to identify the model's current shortcomings but also to guide future enhancements in its design and training.
+            We meticulously examine 150 randomly sampled error instances from GPT-4V's predictions.
+            These instances are analyzed by expert annotators who identify the root causes of mispredictions based on their knowledge and the golden explanations if available.
+            The distribution of these errors is illustrated in Figure, and a selection of 100 notable cases, along with detailed analyses, is included in the Appendix.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="static/images/error_distribution_1.Jpeg" alt="error distribution" width="25%">
+          <p> Error distribution over 150 annotated GPT-4V errors.</p>
+        </div>
+      </div>
+    </div> -->
+  <!-------------------------------------------------------------------- Error Example  -------------------------------------------------------------------->
+    <!-- <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3" id="examples">Error Examples</h2>
+        <div class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/1.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/2.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/3.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/4.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/5.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/6.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/7.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/8.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/9.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/10.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/11.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/12.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/13.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div> -->
+          <!-- <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/15.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/16.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/17.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/18.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/19.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/20.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/21.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/22.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/23.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/24.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/25.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/26.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/27.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/28.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/29.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/30.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/31.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/32.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/33.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/34.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/35.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/36.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/37.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/38.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/39.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/40.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/41.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/42.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/43.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/44.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/45.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/46.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/47.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/48.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/49.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/error/50.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-------------------------------------------------------------------- Correct Example -------------------------------------------------------------------->
+    <!-- <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Correct Examples</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/1.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/2.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/3.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/4.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/5.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/6.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/7.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/8.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/9.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/10.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/11.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/12.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/14.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/15.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/16.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/17.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/18.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/19.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/20.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/21.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/22.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/23.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/24.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/25.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/26.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/27.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/28.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/29.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/30.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/31.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/32.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/33.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/34.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/35.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/36.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/37.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/correct/38.png" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+
+
+
+
+<!-- Paper abstract -->
+<!-- <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present MMAU: a novel benchmark designed to evaluate mul-
+            timodal audio understanding models on tasks requiring expert-level knowledge
+            and complex reasoning. MMAU comprises 10k carefully curated audio clips
+            paired with human-annotated natural language questions and answers spanning
+            speech, environmental sounds, and music. It features 27 diverse tasks, includ-
+            ing 12 information-retrieval types 1 and 15 reasoning types 2, challenging mod-
+            els to perform at the level of human experts in complex, multimodal audio un-
+            derstanding. Unlike existing benchmarks, MMAU emphasizes advanced percep-
+            tion and reasoning with domain-specific knowledge, challenging models to tackle
+            tasks akin to those faced by experts. We assess 18 open-source and proprietary
+            (Large) Audio-Language Models, demonstrating the significant challenges posed
+            by MMAU. Notably, even the most advanced Gemini 1.5 achieves only 66.15%
+            accuracy, and the state-of-the-art open-source Qwen2-Audio achieves only 55.4%,
+            highlighting considerable room for improvement. We believe MMAU will drive
+            the audio and multimodal research community to develop more advanced audio
+            understanding models capable of solving complex audio tasks.
+          </p>
+          <img src="static/images/mmau-fig2-resize-crop_page-0001.jpg" alt="algebraic reasoning" class="center">
+          <br>
+          <p>
+            MMAU is uniquely designed to test LALMs’ advanced cognitive abilities, challenging
+            models with questions that require complex, deliberate reasoning and knowledge retrieval grounded
+            in audio perception. To our knowledge, MMAU stands as the first comprehensive benchmark to
+            rigorously assess these capabilities, filling a critical gap in the evaluation of LALMs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item"> -->
+      <!-- Your image here -->
+      <!-- <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<section class="section">
+  <div class="container">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Error Analysiss</h2>
+        <div class="content has-text-justified">
+          <p>
+            We delve into the analysis of errors by Qwen2-Audio-Instruct and Gemini Pro v1.5, the below figure is the 
+            breakdown of the error types made by Qwen2-Audio-Instruct and Gemini Pro v1.5
+            across 500 instances. The dominant error category for both models is Perceptual Errors, with
+            Qwen2-Audio-Instruct showing 55% and Gemini Pro v1.5 at 64%. This indicates that both models
+            struggle primarily with understanding and accurately perceiving the audio inputs.
+          </p>
+          <div class="content has-text-centered">
+            <img src="static/images/qwen2-error-crop.jpg" alt="algebraic reasoning" class="center" style="width: auto; height: 300px; margin-right: 20px;">
+            <img src="static/images/gemini-error-crop.jpg" alt="algebraic reasoning" class="center" style="width: auto; height: 300px; margin-right: 20px;">
+            <p> Distribution of human-annotated error types across 500 instances for Qwen2-Audio-Instruct (Left)
+              and Gemini Pro v1.5 (Right).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+             <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
