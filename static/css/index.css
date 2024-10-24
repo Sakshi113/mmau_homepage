@@ -139,8 +139,8 @@ body {
   overflow-x: auto;
 }
 
-.human_expert {
-  background-color: rgba(214, 188, 114, 0.15) !important;
+/* .human_expert {
+  background-color: rgba(180, 161, 108, 0.867) !important;
 }
 
 .open_source {
@@ -149,6 +149,18 @@ body {
 
 .proprietary {
   background-color: rgba(161, 220, 224, 0.1) !important;
+} */
+
+.human_expert {
+  background-color: rgba(218, 191, 135, 0.3) !important; /* Light beige/golden */
+}
+
+.open_source {
+  background-color: rgb(240, 229, 245) !important; /* Soft lavender */
+}
+
+.proprietary {
+  background-color: rgba(187, 235, 240, 0.3) !important; /* Light teal */
 }
 
 .leaderboard-label {
