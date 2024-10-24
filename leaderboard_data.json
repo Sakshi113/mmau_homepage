@@ -27,7 +27,7 @@
         "info": {
           "name": "Most Frequent Choice",
           "size": "-",
-          "type": "most_frequent_choice"
+          "type": "human_expert"
         },
         "Sound": {
           "Test-mini": "27.02",
@@ -50,7 +50,7 @@
         "info": {
           "name": "Human (test-mini)",
           "size": "-",
-          "type": "human"
+          "type": "human_expert"
         },
         "Sound": {
           "Test-mini": "86.31",
@@ -73,7 +73,7 @@
         "info": {
           "name": "Pengi",
           "size": "323M",
-          "type": "LALM",
+          "type": "open_source",
           "link": "https://huggingface.co/Pengi"  
         },
         "Sound": {
@@ -97,7 +97,7 @@
         "info": {
           "name": "Audio Flamingo Chat",
           "size": "2.2B",
-          "type": "LALM",
+          "type": "open_source",
           "link": "https://huggingface.co/Audio-Flamingo-Chat"  
         },
         "Sound": {
@@ -121,7 +121,7 @@
         "info": {
           "name": "LTU",
           "size": "7B",
-          "type": "LALM",
+          "type": "open_source",
           "link": "https://huggingface.co/LTU"  
         },
         "Sound": {
@@ -145,7 +145,7 @@
         "info": {
           "name": "LTU AS",
           "size": "7B",
-          "type": "LALM",
+          "type": "open_source",
           "link": "https://huggingface.co/LTU"  
         },
         "Sound": {
@@ -169,7 +169,7 @@
         "info": {
           "name": "MusiLingo",
           "size": "7B",
-          "type": "unknown"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "23.12",
@@ -192,7 +192,7 @@
         "info": {
           "name": "MuLLaMa",
           "size": "7B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "40.84",
@@ -215,7 +215,7 @@
         "info": {
           "name": "M2UGen",
           "size": "7B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "03.60",
@@ -238,7 +238,7 @@
         "info": {
           "name": "GAMA",
           "size": "7B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "41.44",
@@ -261,7 +261,7 @@
         "info": {
           "name": "GAMA-IT",
           "size": "7B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "43.24",
@@ -284,7 +284,7 @@
         "info": {
           "name": "Qwen-Audio-Chat",
           "size": "8.4B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "55.25",
@@ -307,7 +307,7 @@
         "info": {
           "name": "Qwen2-Audio",
           "size": "8.4B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "07.50",
@@ -330,7 +330,7 @@
         "info": {
           "name": "Qwen2-Audio-Instruct",
           "size": "8.4B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "54.95",
@@ -353,7 +353,7 @@
         "info": {
           "name": "SALAMONN",
           "size": "13B",
-          "type": "LLM"
+          "type": "open_source"
         },
         "Sound": {
           "Test-mini": "41.00",
@@ -376,7 +376,7 @@
         "info": {
           "name": "Gemini Pro v1.5",
           "size": "-",
-          "type": "LALM",
+          "type": "proprietary",
           "link": "https://huggingface.co/Gemini-Pro"  
         },
         "Sound": {
@@ -400,7 +400,7 @@
         "info": {
           "name": "GPT4o + weak cap.",
           "size": "-",
-          "type": "LLM",
+          "type": "proprietary",
           "link": "https://huggingface.co/GPT4o-weak-cap"  
         },
         "Sound": {
@@ -424,7 +424,7 @@
         "info": {
           "name": "GPT4o + strong cap.",
           "size": "-",
-          "type": "LLM",
+          "type": "proprietary",
           "link": "https://huggingface.co/GPT4o-strong-cap"  
         },
         "Sound": {
@@ -448,7 +448,7 @@
         "info": {
           "name": "Llama-3-Ins. + weak cap.",
           "size": "8B",
-          "type": "LLM",
+          "type": "open_source",
           "link": "https://huggingface.co/Llama-3-weak-cap"  
         },
         "Sound": {
@@ -472,7 +472,7 @@
         "info": {
           "name": "Llama-3-Ins. + strong cap.",
           "size": "8B",
-          "type": "LLM",
+          "type": "open_source",
           "link": "https://huggingface.co/Llama-3-strong-cap"  
         },
         "Sound": {
