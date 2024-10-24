@@ -424,51 +424,53 @@
 
 
 <section class="section">
-  <div class="columns is-centered has-text-centered">
-    <!-------------------------------------------------------------------- RESULTS SECTION -------------------------------------------------------------------->
-    <div class="column is-four-fifths">
-      <div class="column is-full has-text-centered content">
-        <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
-        <div class="content has-text-centered">
-          <p>
-            We evaluate various models including LALMs and LLMs.
-            In each type, we consider both closed- and open-source models.
-        </div>
-        <div class="model-labels-container">
-          <span class="leaderboard-label human_expert">Human Expert</span>
-          <span class="leaderboard-label open_source">Open-Source</span>
-          <span class="leaderboard-label proprietary">Proprietary</span>
-        </div>
-        <div class="content has-text-centered">
-        </div>
-        <div class="leaderboard-container">
-          <div class="table-wrapper">
-            <table id="leaderboard" class="table" style="width: 100%; border-collapse: collapse;">
-              <thead>
-                <tr>
-                  <th colspan="3.95" style="text-align: right;">Sound</th>
-                  <th colspan="4">Music</th>
-                  <th style="text-align: left;">Speech</th>
-                  <th colspan="3">Avg</th>
-                </tr>
-                <tr>
-                  <th>Name</th>
-                  <th>Size</th>
-                  <th>Test-mini</th>
-                  <th>Test</th>
-                  <th>Test-mini</th>
-                  <th>Test</th>
-                  <th>Test-mini</th>
-                  <th>Test</th>
-                  <th>Test-mini</th>
-                  <th>Test</th>
-                </tr>
-              </thead>
-              <tbody>
-                <!-- Table body will be populated dynamically -->
-              </tbody>
-            </table>
-            <p class="test-desc"> Overall results of different models on the MMAU leaderboard. The best-performing model in each category is <b>in-bold</b>, and the second best is <u>underlined</u>. *: results provided by the authors.</p>
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <!-------------------------------------------------------------------- RESULTS SECTION -------------------------------------------------------------------->
+      <div class="column is-four-fifths">
+        <div class="column is-full has-text-centered content">
+          <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
+          <div class="content has-text-centered">
+            <p>
+              We evaluate various models including LALMs and LLMs.
+              In each type, we consider both closed- and open-source models.
+          </div>
+          <div class="model-labels-container">
+            <span class="leaderboard-label human_expert">Human Expert</span>
+            <span class="leaderboard-label open_source">Open-Source</span>
+            <span class="leaderboard-label proprietary">Proprietary</span>
+          </div>
+          <div class="content has-text-centered">
+          </div>
+          <div class="leaderboard-container">
+            <div class="table-wrapper">
+              <table id="leaderboard" class="table" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                  <tr>
+                    <th colspan="3.95" style="text-align: right;">Sound</th>
+                    <th colspan="4">Music</th>
+                    <th style="text-align: left;">Speech</th>
+                    <th colspan="3">Avg</th>
+                  </tr>
+                  <tr>
+                    <th>Name</th>
+                    <th>Size</th>
+                    <th>Test-mini</th>
+                    <th>Test</th>
+                    <th>Test-mini</th>
+                    <th>Test</th>
+                    <th>Test-mini</th>
+                    <th>Test</th>
+                    <th>Test-mini</th>
+                    <th>Test</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Table body will be populated dynamically -->
+                </tbody>
+              </table>
+              <p class="test-desc"> Overall results of different models on the MMAU leaderboard. The best-performing model in each category is <b>in-bold</b>, and the second best is <u>underlined</u>. *: results provided by the authors.</p>
+            </div>
           </div>
         </div>
       </div>
