@@ -43,6 +43,14 @@ function generateTable(leaderboardData) {
 
     leaderboardData.leaderboardData.forEach(entry => {
         const row = document.createElement('tr');
+
+        if (entry.info.type === 'human_expert') {
+            row.classList.add('human_expert');
+        } else if (entry.info.type === 'open_source') {
+            row.classList.add('open_source');
+        } else if (entry.info.type === 'proprietary') {
+            row.classList.add('proprietary');
+        }
         
         // Name with optional link
         let nameCell = `<td>${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}</a>` : entry.info.name}</td>`;
