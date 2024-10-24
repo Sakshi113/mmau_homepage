@@ -1,3 +1,3 @@
 MMAU Benchmark
 
-https://mmaubench.github.io/
+https://sakshi113.github.io/mmau_homepage/
