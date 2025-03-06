@@ -82,14 +82,17 @@
 //     });
 // }
 
+// Function to generate table rows
 function generateTable(leaderboardData) {
     const tbody = document.querySelector('#leaderboard tbody');
     tbody.innerHTML = ""; // Clear existing rows
 
     // Sort leaderboard data based on Avg["Test"] in descending order
-    leaderboardData.leaderboardData.sort((a, b) => 
-        parseFloat(b.Avg["Test"]) - parseFloat(a.Avg["Test"])
-    );
+    leaderboardData.leaderboardData.sort((a, b) => {
+        let avgA = parseFloat(a.Avg?.["Test"]) || 0; // Convert to float, default to 0 if missing
+        let avgB = parseFloat(b.Avg?.["Test"]) || 0;
+        return avgB - avgA; // Sort descending
+    });
 
     leaderboardData.leaderboardData.forEach((entry, index) => {
         const row = document.createElement('tr');
@@ -114,17 +117,17 @@ function generateTable(leaderboardData) {
         let nameCell = `<td>${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}${medal}</a>` : entry.info.name + medal}</td>`;
 
         // Size
-        let sizeCell = `<td>${entry.info.size}</td>`;
+        let sizeCell = `<td>${entry.info.size || '-'}</td>`;
 
         // Sound, Music, Speech, Avg (Test-mini and Test)
-        let soundMini = `<td>${entry.Sound["Test-mini"] || '-'}</td>`;
-        let soundTest = `<td>${entry.Sound["Test"] || '-'}</td>`;
-        let musicMini = `<td>${entry.Music["Test-mini"] || '-'}</td>`;
-        let musicTest = `<td>${entry.Music["Test"] || '-'}</td>`;
-        let speechMini = `<td>${entry.Speech["Test-mini"] || '-'}</td>`;
-        let speechTest = `<td>${entry.Speech["Test"] || '-'}</td>`;
-        let avgMini = `<td>${entry.Avg["Test-mini"] || '-'}</td>`;
-        let avgTest = `<td>${entry.Avg["Test"] || '-'}</td>`;
+        let soundMini = `<td>${entry.Sound?.["Test-mini"] || '-'}</td>`;
+        let soundTest = `<td>${entry.Sound?.["Test"] || '-'}</td>`;
+        let musicMini = `<td>${entry.Music?.["Test-mini"] || '-'}</td>`;
+        let musicTest = `<td>${entry.Music?.["Test"] || '-'}</td>`;
+        let speechMini = `<td>${entry.Speech?.["Test-mini"] || '-'}</td>`;
+        let speechTest = `<td>${entry.Speech?.["Test"] || '-'}</td>`;
+        let avgMini = `<td>${entry.Avg?.["Test-mini"] || '-'}</td>`;
+        let avgTest = `<td>${entry.Avg?.["Test"] || '-'}</td>`;
 
         // Append all cells into the row
         row.innerHTML = `${nameCell}${sizeCell}${soundMini}${soundTest}${musicMini}${musicTest}${speechMini}${speechTest}${avgMini}${avgTest}`;
