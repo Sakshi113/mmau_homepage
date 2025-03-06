@@ -89,7 +89,7 @@ function generateTable(leaderboardData) {
 
     // Sort leaderboard data based on Avg["Test"] in ascending order
     leaderboardData.leaderboardData.sort((a, b) => 
-        parseFloat(a.Avg["Test"]) - parseFloat(b.Avg["Test"])
+        parseFloat(parseFloat(b.Avg["Test"] - a.Avg["Test"]) )
     );
 
     leaderboardData.leaderboardData.forEach(entry => {
