@@ -82,17 +82,16 @@
 //     });
 // }
 
-// Function to generate table rows
 function generateTable(leaderboardData) {
     const tbody = document.querySelector('#leaderboard tbody');
     tbody.innerHTML = ""; // Clear existing rows
 
-    // Sort leaderboard data based on Avg["Test"] in ascending order
+    // Sort leaderboard data based on Avg["Test"] in descending order
     leaderboardData.leaderboardData.sort((a, b) => 
-        parseFloat(parseFloat(b.Avg["Test"] - a.Avg["Test"]) )
+        parseFloat(b.Avg["Test"]) - parseFloat(a.Avg["Test"])
     );
 
-    leaderboardData.leaderboardData.forEach(entry => {
+    leaderboardData.leaderboardData.forEach((entry, index) => {
         const row = document.createElement('tr');
 
         if (entry.info.type === 'human_expert') {
@@ -103,8 +102,16 @@ function generateTable(leaderboardData) {
             row.classList.add('proprietary');
         }
 
+        // Assign medals to top 2 performers
+        let medal = "";
+        if (index === 0) {
+            medal = " 🥇";  // Gold Medal
+        } else if (index === 1) {
+            medal = " 🥈";  // Silver Medal
+        }
+
         // Name with optional link
-        let nameCell = `<td>${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}</a>` : entry.info.name}</td>`;
+        let nameCell = `<td>${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}${medal}</a>` : entry.info.name + medal}</td>`;
 
         // Size
         let sizeCell = `<td>${entry.info.size}</td>`;
