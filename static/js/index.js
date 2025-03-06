@@ -92,9 +92,6 @@ function generateTable(leaderboardData) {
         parseFloat(b.Avg["Test"]) - parseFloat(a.Avg["Test"])
     );
 
-    // Medals for the top three positions
-    const medals = ["🥇", "🥈", "🥉"];
-
     leaderboardData.leaderboardData.forEach((entry, index) => {
         const row = document.createElement('tr');
 
@@ -106,11 +103,18 @@ function generateTable(leaderboardData) {
             row.classList.add('proprietary');
         }
 
-        // Assign medals to top 3 models
-        let medal = index < 3 ? medals[index] : "";
+        // Assign medals to the top 3 models
+        let medal = "";
+        if (index === 0) {
+            medal = "🥇 "; // Gold
+        } else if (index === 1) {
+            medal = "🥈 "; // Silver
+        } else if (index === 2) {
+            medal = "🥉 "; // Bronze
+        }
 
         // Name with optional link and medal
-        let nameCell = `<td>${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}</a>` : entry.info.name} ${medal}</td>`;
+        let nameCell = `<td>${medal}${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}</a>` : entry.info.name}</td>`;
 
         // Size
         let sizeCell = `<td>${entry.info.size}</td>`;
