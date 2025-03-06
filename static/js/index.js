@@ -87,12 +87,12 @@ function generateTable(leaderboardData) {
     const tbody = document.querySelector('#leaderboard tbody');
     tbody.innerHTML = ""; // Clear existing rows
 
-    // Sort leaderboard data based on Avg["Test"] in descending order
+    // Sort leaderboard data based on Avg["Test"] in ascending order
     leaderboardData.leaderboardData.sort((a, b) => 
-        parseFloat(b.Avg["Test"]) - parseFloat(a.Avg["Test"])
+        parseFloat(a.Avg["Test"]) - parseFloat(b.Avg["Test"])
     );
 
-    leaderboardData.leaderboardData.forEach((entry, index) => {
+    leaderboardData.leaderboardData.forEach(entry => {
         const row = document.createElement('tr');
 
         if (entry.info.type === 'human_expert') {
@@ -103,18 +103,8 @@ function generateTable(leaderboardData) {
             row.classList.add('proprietary');
         }
 
-        // Assign medals to the top 3 models
-        let medal = "";
-        if (index === 0) {
-            medal = "🥇 "; // Gold
-        } else if (index === 1) {
-            medal = "🥈 "; // Silver
-        } else if (index === 2) {
-            medal = "🥉 "; // Bronze
-        }
-
-        // Name with optional link and medal
-        let nameCell = `<td>${medal}${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}</a>` : entry.info.name}</td>`;
+        // Name with optional link
+        let nameCell = `<td>${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}</a>` : entry.info.name}</td>`;
 
         // Size
         let sizeCell = `<td>${entry.info.size}</td>`;
