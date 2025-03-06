@@ -386,7 +386,7 @@
           "name": "Gemini Pro v1.5",
           "size": "-",
           "type": "proprietary",
-          "link": "https://arxiv.org/pdf/2403.05530"  
+          "link": "https://deepmind.google/technologies/gemini/"  
         },
         "Sound": {
           "Test-mini": "56.75",
@@ -403,6 +403,54 @@
         "Avg": {
           "Test-mini": "54.90",
           "Test": "52.97"
+        }
+      },
+      {
+        "info": {
+          "name": "Gemini Pro 2.0 Flash",
+          "size": "-",
+          "type": "proprietary",
+          "link": "https://deepmind.google/technologies/gemini/flash/"  
+        },
+        "Sound": {
+          "Test-mini": "56.46",
+          "Test": "61.73"
+        },
+        "Music": {
+          "Test-mini": "58.68",
+          "Test": "56.53"
+        },
+        "Speech": {
+          "Test-mini": "51.65",
+          "Test": "61.53"
+        },
+        "Avg": {
+          "Test-mini": "55.60",
+          "Test": "59.93"
+        }
+      },
+      {
+        "info": {
+          "name": "Audio Flamingo 2",
+          "size": "3B",
+          "type": "open_source",
+          "link": "https://research.nvidia.com/labs/adlr/AF2/"  
+        },
+        "Sound": {
+          "Test-mini": "61.56",
+          "Test": "65.1"
+        },
+        "Music": {
+          "Test-mini": "73.95",
+          "Test": "72.9"
+        },
+        "Speech": {
+          "Test-mini": "30.93",
+          "Test": "40.26"
+        },
+        "Avg": {
+          "Test-mini": "55.48",
+          "Test": "59.42"
         }
       },
       {
