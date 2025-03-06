@@ -82,7 +82,6 @@
 //     });
 // }
 
-// Function to generate table rows
 function generateTable(leaderboardData) {
     const tbody = document.querySelector('#leaderboard tbody');
     tbody.innerHTML = ""; // Clear existing rows
