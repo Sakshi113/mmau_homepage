@@ -155,19 +155,14 @@ function generateTable(leaderboardData) {
         tbody.appendChild(row);
     }
 
-    // Append human experts first
-    humanExperts.forEach(entry => appendRow(entry));
-
-    // Insert a bold line after human experts
-    if (humanExperts.length > 0) {
-        appendRow(null, true);
-    }
-
-    // Append random guess entries
+    // Append random guess entries first
     randomGuesses.forEach(entry => appendRow(entry));
 
-    // Insert another bold line after random guess entries
-    if (randomGuesses.length > 0) {
+    // Append human experts immediately after random guess (no separator)
+    humanExperts.forEach(entry => appendRow(entry));
+
+    // Insert a single bold line before sorted entries
+    if (others.length > 0) {
         appendRow(null, true);
     }
 
@@ -177,6 +172,7 @@ function generateTable(leaderboardData) {
         appendRow(entry);
     });
 }
+
 
 
 // Function to load JSON and then generate the table
