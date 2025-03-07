@@ -86,14 +86,26 @@ function generateTable(leaderboardData) {
     const tbody = document.querySelector('#leaderboard tbody');
     tbody.innerHTML = ""; // Clear existing rows
 
-    // Sort leaderboard data based on Avg["Test"] in descending order
-    leaderboardData.leaderboardData.sort((a, b) => {
-        let avgA = parseFloat(a.Avg?.["Test"]) || 0; // Convert to float, default to 0 if missing
+    // Separate human_expert entries from others
+    const humanExperts = leaderboardData.leaderboardData.filter(entry => entry.info.type === 'human_expert');
+    const others = leaderboardData.leaderboardData.filter(entry => entry.info.type !== 'human_expert');
+
+    // Sort the non-human_expert entries based on Avg["Test"] in descending order
+    others.sort((a, b) => {
+        let avgA = parseFloat(a.Avg?.["Test"]) || 0;
         let avgB = parseFloat(b.Avg?.["Test"]) || 0;
         return avgB - avgA; // Sort descending
     });
 
-    leaderboardData.leaderboardData.forEach((entry, index) => {
+    // Function to create and append table rows
+    function appendRow(entry, isDivider = false) {
+        if (isDivider) {
+            const dividerRow = document.createElement('tr');
+            dividerRow.innerHTML = `<td colspan="9" style="border-bottom: 3px solid black;"></td>`;
+            tbody.appendChild(dividerRow);
+            return;
+        }
+
         const row = document.createElement('tr');
 
         if (entry.info.type === 'human_expert') {
@@ -104,11 +116,11 @@ function generateTable(leaderboardData) {
             row.classList.add('proprietary');
         }
 
-        // Assign medals to top 2 performers
+        // Assign medals to top 2 performers in the sorted list (excluding human_experts)
         let medal = "";
-        if (index === 0) {
+        if (entry.rank === 0) {
             medal = " 🥇";  // Gold Medal
-        } else if (index === 1) {
+        } else if (entry.rank === 1) {
             medal = " 🥈";  // Silver Medal
         }
 
@@ -132,6 +144,20 @@ function generateTable(leaderboardData) {
         row.innerHTML = `${nameCell}${sizeCell}${soundMini}${soundTest}${musicMini}${musicTest}${speechMini}${speechTest}${avgMini}${avgTest}`;
 
         tbody.appendChild(row);
+    }
+
+    // Append human experts first
+    humanExperts.forEach(entry => appendRow(entry));
+
+    // Insert a bold line after human experts
+    if (humanExperts.length > 0) {
+        appendRow(null, true);
+    }
+
+    // Append sorted non-human_expert entries
+    others.forEach((entry, index) => {
+        entry.rank = index; // Track index for medal assignment
+        appendRow(entry);
     });
 }
 
