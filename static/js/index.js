@@ -86,11 +86,15 @@ function generateTable(leaderboardData) {
     const tbody = document.querySelector('#leaderboard tbody');
     tbody.innerHTML = ""; // Clear existing rows
 
-    // Separate human_expert entries from others
-    const humanExperts = leaderboardData.leaderboardData.filter(entry => entry.info.type === 'human_expert');
-    const others = leaderboardData.leaderboardData.filter(entry => entry.info.type !== 'human_expert');
+    // Separate human_expert and random_guess entries from others
+    const fixedEntries = leaderboardData.leaderboardData.filter(entry => 
+        entry.info.type === 'human_expert' || entry.info.type === 'random_guess'
+    );
+    const others = leaderboardData.leaderboardData.filter(entry => 
+        entry.info.type !== 'human_expert' && entry.info.type !== 'random_guess'
+    );
 
-    // Sort the non-human_expert entries based on Avg["Test"] in descending order
+    // Sort only the non-fixed entries based on Avg["Test"] in descending order
     others.sort((a, b) => {
         let avgA = parseFloat(a.Avg?.["Test"]) || 0;
         let avgB = parseFloat(b.Avg?.["Test"]) || 0;
@@ -108,7 +112,7 @@ function generateTable(leaderboardData) {
 
         const row = document.createElement('tr');
 
-        if (entry.info.type === 'human_expert') {
+        if (entry.info.type === 'human_expert' || entry.info.type === 'random_guess') {
             row.classList.add('human_expert');
         } else if (entry.info.type === 'open_source') {
             row.classList.add('open_source');
@@ -116,12 +120,14 @@ function generateTable(leaderboardData) {
             row.classList.add('proprietary');
         }
 
-        // Assign medals to top 2 performers in the sorted list (excluding human_experts)
+        // Assign medals to the top 3 performers in the sorted list (excluding fixed entries)
         let medal = "";
         if (entry.rank === 0) {
             medal = " 🥇";  // Gold Medal
         } else if (entry.rank === 1) {
             medal = " 🥈";  // Silver Medal
+        } else if (entry.rank === 2) {
+            medal = " 🥉";  // Bronze Medal
         }
 
         // Name with optional link
@@ -146,15 +152,15 @@ function generateTable(leaderboardData) {
         tbody.appendChild(row);
     }
 
-    // Append human experts first
-    humanExperts.forEach(entry => appendRow(entry));
+    // Append fixed (human_expert + random_guess) entries first
+    fixedEntries.forEach(entry => appendRow(entry));
 
-    // Insert a bold line after human experts
-    if (humanExperts.length > 0) {
+    // Insert a bold line after the fixed entries
+    if (fixedEntries.length > 0) {
         appendRow(null, true);
     }
 
-    // Append sorted non-human_expert entries
+    // Append sorted non-fixed entries
     others.forEach((entry, index) => {
         entry.rank = index; // Track index for medal assignment
         appendRow(entry);
