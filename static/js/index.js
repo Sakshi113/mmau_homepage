@@ -87,9 +87,8 @@ function generateTable(leaderboardData) {
     tbody.innerHTML = ""; // Clear existing rows
 
     // Separate human_expert and random_guess entries from others
-    const fixedEntries = leaderboardData.leaderboardData.filter(entry => 
-        entry.info.type === 'human_expert' || entry.info.type === 'random_guess'
-    );
+    const humanExperts = leaderboardData.leaderboardData.filter(entry => entry.info.type === 'human_expert');
+    const randomGuesses = leaderboardData.leaderboardData.filter(entry => entry.info.type === 'random_guess');
     const others = leaderboardData.leaderboardData.filter(entry => 
         entry.info.type !== 'human_expert' && entry.info.type !== 'random_guess'
     );
@@ -103,17 +102,21 @@ function generateTable(leaderboardData) {
 
     // Function to create and append table rows
     function appendRow(entry, isDivider = false) {
+        const totalColumns = 10; // Adjust this based on the actual number of columns
+
         if (isDivider) {
             const dividerRow = document.createElement('tr');
-            dividerRow.innerHTML = `<td colspan="9" style="border-bottom: 3px solid black;"></td>`;
+            dividerRow.innerHTML = `<td colspan="${totalColumns}" style="border-bottom: 4px solid black;"></td>`;
             tbody.appendChild(dividerRow);
             return;
         }
 
         const row = document.createElement('tr');
 
-        if (entry.info.type === 'human_expert' || entry.info.type === 'random_guess') {
+        if (entry.info.type === 'human_expert') {
             row.classList.add('human_expert');
+        } else if (entry.info.type === 'random_guess') {
+            row.classList.add('random_guess');
         } else if (entry.info.type === 'open_source') {
             row.classList.add('open_source');
         } else if (entry.info.type === 'proprietary') {
@@ -152,11 +155,19 @@ function generateTable(leaderboardData) {
         tbody.appendChild(row);
     }
 
-    // Append fixed (human_expert + random_guess) entries first
-    fixedEntries.forEach(entry => appendRow(entry));
+    // Append human experts first
+    humanExperts.forEach(entry => appendRow(entry));
 
-    // Insert a bold line after the fixed entries
-    if (fixedEntries.length > 0) {
+    // Insert a bold line after human experts
+    if (humanExperts.length > 0) {
+        appendRow(null, true);
+    }
+
+    // Append random guess entries
+    randomGuesses.forEach(entry => appendRow(entry));
+
+    // Insert another bold line after random guess entries
+    if (randomGuesses.length > 0) {
         appendRow(null, true);
     }
 
@@ -166,6 +177,7 @@ function generateTable(leaderboardData) {
         appendRow(entry);
     });
 }
+
 
 // Function to load JSON and then generate the table
 function loadJSONAndGenerateTable() {
