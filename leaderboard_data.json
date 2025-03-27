@@ -551,7 +551,7 @@
       },
     {
         "info": {
-          "name": "R1-AQA",
+          "name": "R1-AQA (Qwen2-Audio-7B-Instruct + GRPO)",
           "size": "7B",
           "type": "open_source",
           "link": "https://github.com/xiaomi-research/r1-aqa"  
