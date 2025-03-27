@@ -548,6 +548,30 @@
           "Test-mini": "52.10",
           "Test": "53.57"
         }
+      },
+    {
+        "info": {
+          "name": "R1-AQA",
+          "size": "7B",
+          "type": "open_source",
+          "link": "https://github.com/xiaomi-research/r1-aqa"  
+        },
+        "Sound": {
+          "Test-mini": "69.37",
+          "Test": "69.76"
+        },
+        "Music": {
+          "Test-mini": "61.9",
+          "Test": "61.4"
+        },
+        "Speech": {
+          "Test-mini": "57.36",
+          "Test": "62.70"
+        },
+        "Avg": {
+          "Test-mini": "64.50",
+          "Test": "64.36"
+        }
       }
     ]
   }
