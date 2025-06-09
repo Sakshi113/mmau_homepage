@@ -191,6 +191,30 @@
       },
       {
         "info": {
+          "name": "GAMA",
+          "size": "7B",
+          "type": "open_source",
+          "link": "https://huggingface.co/spaces/sonalkum/GAMA"
+        },
+        "Sound": {
+          "Test-mini": "",
+          "Test": "29.90"
+        },
+        "Music": {
+          "Test-mini": "",
+          "Test": "5.28"
+        },
+        "Speech": {
+          "Test-mini": "",
+          "Test": "17.03"
+        },
+        "Avg": {
+          "Test-mini": "",
+          "Test": "21.03"
+        }
+      },  
+      {
+        "info": {
           "name": "GAMA-IT",
           "size": "7B",
           "type": "open_source",
@@ -215,7 +239,7 @@
       },
       {
         "info": {
-          "name": "Qwen2-Audio",
+          "name": "Qwen2-Audio-Instruct",
           "size": "8.4B",
           "type": "open_source",
           "link": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
@@ -233,7 +257,7 @@
           "Test": "41.30"
         },
         "Avg": {
-          "Test-mini": "45.80",
+          "Test-mini": "",
           "Test": "46.22"
         }
       },
@@ -293,19 +317,19 @@
           "link": "https://deepmind.google/technologies/gemini/flash/"  
         },
         "Sound": {
-          "Test-mini": "49.85",
+          "Test-mini": "71.17",
           "Test": ""
         },
         "Music": {
-          "Test-mini": "47.60",
+          "Test-mini": "66.17",
           "Test": ""
         },
         "Speech": {
-          "Test-mini": "34.83",
+          "Test-mini": "66.17",
           "Test": ""
         },
         "Avg": {
-          "Test-mini": "34.83",
+          "Test-mini": "66.17",
           "Test": ""
         }
       },
@@ -326,7 +350,7 @@
         },
         "Speech": {
           "Test-mini": "",
-          "Test": "77.00"
+          "Test": "73.11"
         },
         "Avg": {
           "Test-mini": "",
@@ -346,15 +370,15 @@
         },
         "Music": {
           "Test-mini": "",
-          "Test": "67.87"
+          "Test": "63.00"
         },
         "Speech": {
           "Test-mini": "",
-          "Test": "67.87"
+          "Test": "76.03"
         },
         "Avg": {
           "Test-mini": "",
-          "Test": "68.43"
+          "Test": "73.11"
         }
       },
       {
