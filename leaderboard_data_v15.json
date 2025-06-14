@@ -1,410 +1,196 @@
 {
-    "leaderboardData": [
-      {
-        "info": {
-          "name": "Random Guess",
-          "size": "-",
-          "type": "random_guess"
-        },
-        "Sound": {
-          "Test-mini": "26.72",
-          "Test": "25.73"
-        },
-        "Music": {
-          "Test-mini": "24.55",
-          "Test": "26.53"
-        },
-        "Speech": {
-          "Test-mini": "26.72",
-          "Test": "25.50"
-        },
-        "Avg": {
-          "Test-mini": "26.00",
-          "Test": "25.92"
-        }
+  "leaderboardData": [
+    {
+      "info": {
+        "name": "Audio Flamingo Chat",
+        "size": "2.2B",
+        "type": "open_source",
+        "link": "https://huggingface.co/nvidia/audio-flamingo"  
       },
-      {
-        "info": {
-          "name": "Most Frequent Choice",
-          "size": "-",
-          "type": "human_expert"
-        },
-        "Sound": {
-          "Test-mini": "27.02",
-          "Test": "25.73"
-        },
-        "Music": {
-          "Test-mini": "20.35",
-          "Test": "23.73"
-        },
-        "Speech": {
-          "Test-mini": "29.12",
-          "Test": "30.33"
-        },
-        "Avg": {
-          "Test-mini": "25.50",
-          "Test": "26.50"
-        }
+      "Sound": {
+        "Test-mini": "24.02",
+        "Test": "22.17"
       },
-      {
-        "info": {
-          "name": "Human (test-mini)",
-          "size": "-",
-          "type": "human_expert"
-        },
-        "Sound": {
-          "Test-mini": "86.31",
-          "Test": "-"
-        },
-        "Music": {
-          "Test-mini": "78.22",
-          "Test": "-"
-        },
-        "Speech": {
-          "Test-mini": "82.17",
-          "Test": "-"
-        },
-        "Avg": {
-          "Test-mini": "82.23",
-          "Test": "-"
-        }
+      "Music": {
+        "Test-mini": "14.97",
+        "Test": "14.13"
       },
-      {
-        "info": {
-          "name": "Pengi",
-          "size": "323M",
-          "type": "open_source",
-          "link": "https://arxiv.org/pdf/2305.11834"  
-        },
-        "Sound": {
-          "Test-mini": "0.30",
-          "Test": "1.77"
-        },
-        "Music": {
-          "Test-mini": "0.30",
-          "Test": "0.23"
-        },
-        "Speech": {
-          "Test-mini": "0.00",
-          "Test": "0.13"
-        },
-        "Avg": {
-          "Test-mini": "0.20",
-          "Test": "0.71"
-        }
+      "Speech": {
+        "Test-mini": "6.31",
+        "Test": "6.93"
       },
-      {
-        "info": {
-          "name": "Audio Flamingo Chat",
-          "size": "2.2B",
-          "type": "open_source",
-          "link": "https://huggingface.co/nvidia/audio-flamingo"  
-        },
-        "Sound": {
-          "Test-mini": "21.92",
-          "Test": "24.43"
-        },
-        "Music": {
-          "Test-mini": "14.67",
-          "Test": "13.80"
-        },
-        "Speech": {
-          "Test-mini": "5.71",
-          "Test": "6.70"
-        },
-        "Avg": {
-          "Test-mini": "14.10",
-          "Test": "14.98"
-        }
-      },
-      {
-        "info": {
-          "name": "LTU",
-          "size": "7B",
-          "type": "open_source",
-          "link": "https://openreview.net/pdf?id=nBZBPXdJlC"  
-        },
-        "Sound": {
-          "Test-mini": "21.62",
-          "Test": "21.73"
-        },
-        "Music": {
-          "Test-mini": "10.76",
-          "Test": "12.45"
-        },
-        "Speech": {
-          "Test-mini": "9.31",
-          "Test": "14.87"
-        },
-        "Avg": {
-          "Test-mini": "14.05",
-          "Test": "16.56"
-        }
-      },
-      {
-        "info": {
-          "name": "MuLLaMa",
-          "size": "7B",
-          "type": "open_source",
-          "link": "https://arxiv.org/pdf/2308.11276"
-        },
-        "Sound": {
-          "Test-mini": "34.23",
-          "Test": "31.20"
-        },
-        "Music": {
-          "Test-mini": "24.85",
-          "Test": "26.57"
-        },
-        "Speech": {
-          "Test-mini": "12.61",
-          "Test": "17.80"
-        },
-        "Avg": {
-          "Test-mini": "23.90",
-          "Test": "25.19"
-        }
-      },
-      {
-        "info": {
-          "name": "M2UGen",
-          "size": "7B",
-          "type": "open_source",
-          "link": "https://huggingface.co/M2UGen/M2UGen-MusicGen-medium"
-        },
-        "Sound": {
-          "Test-mini": "46.55",
-          "Test": "45.27"
-        },
-        "Music": {
-          "Test-mini": "34.73",
-          "Test": "35.53"
-        },
-        "Speech": {
-          "Test-mini": "19.82",
-          "Test": "35.83"
-        },
-        "Avg": {
-          "Test-mini": "33.70",
-          "Test": "38.88"
-        }
-      },
-      {
-        "info": {
-          "name": "GAMA",
-          "size": "7B",
-          "type": "open_source",
-          "link": "https://huggingface.co/spaces/sonalkum/GAMA"
-        },
-        "Sound": {
-          "Test-mini": "",
-          "Test": "29.90"
-        },
-        "Music": {
-          "Test-mini": "",
-          "Test": "5.28"
-        },
-        "Speech": {
-          "Test-mini": "",
-          "Test": "17.03"
-        },
-        "Avg": {
-          "Test-mini": "",
-          "Test": "21.03"
-        }
-      },  
-      {
-        "info": {
-          "name": "GAMA-IT",
-          "size": "7B",
-          "type": "open_source",
-          "link": "https://huggingface.co/spaces/sonalkum/GAMA-IT"
-        },
-        "Sound": {
-          "Test-mini": "29.43",
-          "Test": "32.07"
-        },
-        "Music": {
-          "Test-mini": "21.88",
-          "Test": "20.01"
-        },
-        "Speech": {
-          "Test-mini": "10.81",
-          "Test": "12.23"
-        },
-        "Avg": {
-          "Test-mini": "20.65",
-          "Test": "21.51"
-        }
-      },
-      {
-        "info": {
-          "name": "Qwen2-Audio-Instruct",
-          "size": "8.4B",
-          "type": "open_source",
-          "link": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
-        },
-        "Sound": {
-          "Test-mini": "52.85",
-          "Test": "50.80"
-        },
-        "Music": {
-          "Test-mini": "48.80",
-          "Test": "46.57"
-        },
-        "Speech": {
-          "Test-mini": "",
-          "Test": "41.30"
-        },
-        "Avg": {
-          "Test-mini": "",
-          "Test": "46.22"
-        }
-      },
-      {
-        "info": {
-          "name": "Qwen2.5 omni",
-          "size": "8.2B",
-          "type": "open_source",
-          "link": ""
-        },
-        "Sound": {
-          "Test-mini": "",
-          "Test": "74.67"
-        },
-        "Music": {
-          "Test-mini": "",
-          "Test": "68.63"
-        },
-        "Speech": {
-          "Test-mini": "",
-          "Test": "76.03"
-        },
-        "Avg": {
-          "Test-mini": "",
-          "Test": "73.11"
-        }
-      },
-      {
-        "info": {
-          "name": "SALMONN",
-          "size": "13B",
-          "type": "open_source",
-          "link": "https://arxiv.org/pdf/2310.13289"
-        },
-        "Sound": {
-          "Test-mini": "",
-          "Test": "41.30"
-        },
-        "Music": {
-          "Test-mini": "",
-          "Test": "33.80"
-        },
-        "Speech": {
-          "Test-mini": "",
-          "Test": "27.20"
-        },
-        "Avg": {
-          "Test-mini": "",
-          "Test": "34.10"
-        }
-      },
-      {
-        "info": {
-          "name": "Gemini Pro 2.0 Flash",
-          "size": "-",
-          "type": "proprietary",
-          "link": "https://deepmind.google/technologies/gemini/flash/"  
-        },
-        "Sound": {
-          "Test-mini": "71.17",
-          "Test": ""
-        },
-        "Music": {
-          "Test-mini": "66.17",
-          "Test": ""
-        },
-        "Speech": {
-          "Test-mini": "66.17",
-          "Test": ""
-        },
-        "Avg": {
-          "Test-mini": "66.17",
-          "Test": ""
-        }
-      },
-      {
-        "info": {
-          "name": "Kimi",
-          "size": "-",
-          "type": "proprietary",
-          "link": ""  
-        },
-        "Sound": {
-          "Test-mini": "",
-          "Test": "72.77"
-        },
-        "Music": {
-          "Test-mini": "",
-          "Test": "77.00"
-        },
-        "Speech": {
-          "Test-mini": "",
-          "Test": "73.11"
-        },
-        "Avg": {
-          "Test-mini": "",
-          "Test": "71.19"
-        }
-      },
-      {
-        "info": {
-          "name": "Audio Reasoner",
-          "size": "-",
-          "type": "proprietary",
-          "link": ""  
-        },
-        "Sound": {
-          "Test-mini": "",
-          "Test": "67.87"
-        },
-        "Music": {
-          "Test-mini": "",
-          "Test": "63.00"
-        },
-        "Speech": {
-          "Test-mini": "",
-          "Test": "76.03"
-        },
-        "Avg": {
-          "Test-mini": "",
-          "Test": "73.11"
-        }
-      },
-      {
-        "info": {
-          "name": "Phi-4",
-          "size": "-",
-          "type": "proprietary",
-          "link": ""  
-        },
-        "Sound": {
-          "Test-mini": "",
-          "Test": "59.20"
-        },
-        "Music": {
-          "Test-mini": "",
-          "Test": "46.57"
-        },
-        "Speech": {
-          "Test-mini": "",
-          "Test": "41.30"
-        },
-        "Avg": {
-          "Test-mini": "",
-          "Test": "46.22"
-        }
+      "Avg": {
+        "Test-mini": "15.10",
+        "Test": "14.41"
       }
-    ]
-  }
-  
+    },
+    {
+      "info": {
+        "name": "Kimi-Audio",
+        "size": "7B",
+        "type": "open_source",
+        "link": "https://github.com/MoonshotAI/Kimi-Audio?tab=readme-ov-file"  
+      },
+      "Sound": {
+        "Test-mini": "75.68",
+        "Test": "71.00"
+      },
+      "Music": {
+        "Test-mini": "66.77",
+        "Test": "66.13"
+      },
+      "Speech": {
+        "Test-mini": "63.06",
+        "Test": "57.83"
+      },
+      "Avg": {
+        "Test-mini": "68.50",
+        "Test": "64.99"
+      }
+    },
+    {
+      "info": {
+        "name": "MusiLingo",
+        "size": "7B",
+        "type": "open_source",
+        "link": "https://huggingface.co/m-a-p/MusiLingo-long-v1"
+      },
+      "Sound": {
+        "Test-mini": "41.14",
+        "Test": "39.53"
+      },
+      "Music": {
+        "Test-mini": "39.82",
+        "Test": "40.07"
+      },
+      "Speech": {
+        "Test-mini": "28.83",
+        "Test": "29.33"
+      },
+      "Avg": {
+        "Test-mini": "36.60",
+        "Test": "36.31"
+      }
+    },
+    {
+      "info": {
+        "name": "MuLLaMa",
+        "size": "7B",
+        "type": "open_source",
+        "link": "https://arxiv.org/pdf/2308.11276"
+      },
+      "Sound": {
+        "Test-mini": "30.33",
+        "Test": "27.83"
+      },
+      "Music": {
+        "Test-mini": "31.14",
+        "Test": "28.03"
+      },
+      "Speech": {
+        "Test-mini": "16.52",
+        "Test": "17.30"
+      },
+      "Avg": {
+        "Test-mini": "26.00",
+        "Test": "24.39"
+      }
+    },
+    {
+      "info": {
+        "name": "M2UGen",
+        "size": "7B",
+        "type": "open_source",
+        "link": "https://huggingface.co/M2UGen/M2UGen-MusicGen-medium"
+      },
+      "Sound": {
+        "Test-mini": "41.74",
+        "Test": "42.63"
+      },
+      "Music": {
+        "Test-mini": "35.03",
+        "Test": "36.13"
+      },
+      "Speech": {
+        "Test-mini": "31.53",
+        "Test": "34.37"
+      },
+      "Avg": {
+        "Test-mini": "36.10",
+        "Test": "37.71"
+      }
+    },
+    {
+      "info": {
+        "name": "GAMA",
+        "size": "7B",
+        "type": "open_source",
+        "link": "https://huggingface.co/spaces/sonalkum/GAMA"
+      },
+      "Sound": {
+        "Test-mini": "27.93",
+        "Test": "26.83"
+      },
+      "Music": {
+        "Test-mini": "16.32",
+        "Test": "16.23"
+      },
+      "Speech": {
+        "Test-mini": "12.91",
+        "Test": "16.90"
+      },
+      "Avg": {
+        "Test-mini": "19.18",
+        "Test": "20.19"
+      }
+    },  
+    {
+      "info": {
+        "name": "GAMA-IT",
+        "size": "7B",
+        "type": "open_source",
+        "link": "https://huggingface.co/spaces/sonalkum/GAMA-IT"
+      },
+      "Sound": {
+        "Test-mini": "27.33",
+        "Test": "29.20"
+      },
+      "Music": {
+        "Test-mini": "26.04",
+        "Test": "21.39"
+      },
+      "Speech": {
+        "Test-mini": "12.61",
+        "Test": "11.97"
+      },
+      "Avg": {
+        "Test-mini": "21.80",
+        "Test": "20.82"
+      }
+    },
+    {
+      "info": {
+        "name": "Phi-4",
+        "size": "-",
+        "type": "proprietary",
+        "link": ""  
+      },
+      "Sound": {
+        "Test-mini": "60.96",
+        "Test": "59.43"
+      },
+      "Music": {
+        "Test-mini": "62.87",
+        "Test": "59.20"
+      },
+      "Speech": {
+        "Test-mini": "62.46",
+        "Test": "60.67"
+      },
+      "Avg": {
+        "Test-mini": "62.10",
+        "Test": "59.77"
+      }
+    }
+  ]
+}
