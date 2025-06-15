@@ -27,9 +27,9 @@
     {
       "info": {
         "name": "Audio Reasoner",
-        "size": "-",
+        "size": "7B",
         "type": "proprietary",
-        "link": ""  
+        "link": "https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main"  
       },
       "Sound": {
         "Test-mini": "32.13",
@@ -291,9 +291,9 @@
     {
       "info": {
         "name": "Phi-4",
-        "size": "-",
+        "size": "14B",
         "type": "proprietary",
-        "link": ""  
+        "link": "https://huggingface.co/microsoft/phi-4"  
       },
       "Sound": {
         "Test-mini": "60.96",
