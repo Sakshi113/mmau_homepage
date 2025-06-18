@@ -150,7 +150,7 @@ function generateTableV15(leaderboardData) {
     });
 }
 
-function generateTableV15(leaderboardData) {
+function generateTableV15Parsed(leaderboardData) {
     const tbody = document.querySelector('#leaderboard-v15-parsed tbody');
     tbody.innerHTML = "";
 
@@ -214,7 +214,7 @@ function generateTableV15(leaderboardData) {
 function loadV15ParsedLeaderboard() {
     fetch('./leaderboard_data_v15.json')  // Path to new leaderboard JSON
         .then(response => response.json())
-        .then(data => generateTableV15(data))
+        .then(data => generateTableV15Parsed(data))
         .catch(error => console.error('Error loading v1.5 JSON data:', error));
 }
 
