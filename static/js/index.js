@@ -150,6 +150,67 @@ function generateTableV15(leaderboardData) {
     });
 }
 
+function generateTableV15(leaderboardData) {
+    const tbody = document.querySelector('#leaderboard-v15-parsed tbody');
+    tbody.innerHTML = "";
+
+    const humanExperts = leaderboardData.leaderboardData.filter(entry => entry.info.type === 'human_expert');
+    const randomGuesses = leaderboardData.leaderboardData.filter(entry => entry.info.type === 'random_guess');
+    const others = leaderboardData.leaderboardData.filter(entry => 
+        entry.info.type !== 'human_expert' && entry.info.type !== 'random_guess'
+    );
+
+    others.sort((a, b) => {
+        let avgA = parseFloat(a.Avg?.["Test"]) || 0;
+        let avgB = parseFloat(b.Avg?.["Test"]) || 0;
+        return avgB - avgA;
+    });
+
+    function appendRow(entry, isDivider = false) {
+        const totalColumns = 10;
+
+        if (isDivider) {
+            const dividerRow = document.createElement('tr');
+            dividerRow.innerHTML = `<td colspan="${totalColumns}" style="border-bottom: 4px solid black;"></td>`;
+            tbody.appendChild(dividerRow);
+            return;
+        }
+
+        const row = document.createElement('tr');
+        if (entry.info.type === 'human_expert') row.classList.add('human_expert');
+        else if (entry.info.type === 'random_guess') row.classList.add('random_guess');
+        else if (entry.info.type === 'open_source') row.classList.add('open_source');
+        else if (entry.info.type === 'proprietary') row.classList.add('proprietary');
+
+        let medal = "";
+        if (entry.rank === 0) medal = " 🥇";
+        else if (entry.rank === 1) medal = " 🥈";
+        else if (entry.rank === 2) medal = " 🥉";
+
+        let nameCell = `<td>${entry.info.link ? `<a href="${entry.info.link}">${entry.info.name}${medal}</a>` : entry.info.name + medal}</td>`;
+        let sizeCell = `<td>${entry.info.size || '-'}</td>`;
+        let soundMini = `<td>${entry.Sound?.["Test-mini"] || '-'}</td>`;
+        let soundTest = `<td>${entry.Sound?.["Test"] || '-'}</td>`;
+        let musicMini = `<td>${entry.Music?.["Test-mini"] || '-'}</td>`;
+        let musicTest = `<td>${entry.Music?.["Test"] || '-'}</td>`;
+        let speechMini = `<td>${entry.Speech?.["Test-mini"] || '-'}</td>`;
+        let speechTest = `<td>${entry.Speech?.["Test"] || '-'}</td>`;
+        let avgMini = `<td>${entry.Avg?.["Test-mini"] || '-'}</td>`;
+        let avgTest = `<td>${entry.Avg?.["Test"] || '-'}</td>`;
+
+        row.innerHTML = `${nameCell}${sizeCell}${soundMini}${soundTest}${musicMini}${musicTest}${speechMini}${speechTest}${avgMini}${avgTest}`;
+        tbody.appendChild(row);
+    }
+
+    randomGuesses.forEach(entry => appendRow(entry));
+    humanExperts.forEach(entry => appendRow(entry));
+    if (others.length > 0) appendRow(null, true);
+    others.forEach((entry, index) => {
+        entry.rank = index;
+        appendRow(entry);
+    });
+}
+
 function loadV15ParsedLeaderboard() {
     fetch('./leaderboard_data_v15.json')  // Path to new leaderboard JSON
         .then(response => response.json())
