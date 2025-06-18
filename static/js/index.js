@@ -150,8 +150,15 @@ function generateTableV15(leaderboardData) {
     });
 }
 
-function loadV15Leaderboard() {
+function loadV15ParsedLeaderboard() {
     fetch('./leaderboard_data_v15.json')  // Path to new leaderboard JSON
+        .then(response => response.json())
+        .then(data => generateTableV15(data))
+        .catch(error => console.error('Error loading v1.5 JSON data:', error));
+}
+
+function loadV15Leaderboard() {
+    fetch('./leaderboard_data_v15_parsed.json')  // Path to new leaderboard JSON
         .then(response => response.json())
         .then(data => generateTableV15(data))
         .catch(error => console.error('Error loading v1.5 JSON data:', error));
@@ -171,4 +178,5 @@ function loadJSONAndGenerateTable() {
 document.addEventListener('DOMContentLoaded', () => {
     loadJSONAndGenerateTable();  // Old table
     loadV15Leaderboard();        // New MMAUV1.5 leaderboard
+    loadV15ParsedLeaderboard(); // New MMAUV1.5 leaderboard parsed
 });
