@@ -4,7 +4,7 @@
       "info": {
         "name": "Omni-R1",
         "size": "8.2B",
-        "type": "open_source",
+        "type": "open_access",
         "link": "https://huggingface.co/nvidia/audio-flamingo"  
       },
       "Sound": {
@@ -76,7 +76,7 @@
       "info": {
         "name": "Audio Reasoner",
         "size": "7B",
-        "type": "proprietary",
+        "type": "open_access",
         "link": "https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main"  
       },
       "Sound": {
@@ -292,7 +292,7 @@
       "info": {
         "name": "Qwen2-Audio-Instruct",
         "size": "8.4B",
-        "type": "open_source",
+        "type": "open_access",
         "link": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
       },
       "Sound": {
@@ -316,7 +316,7 @@
       "info": {
         "name": "Qwen2.5 omni",
         "size": "8.2B",
-        "type": "open_source",
+        "type": "open_access",
         "link": ""
       },
       "Sound": {
@@ -340,7 +340,7 @@
       "info": {
         "name": "Phi-4",
         "size": "14B",
-        "type": "proprietary",
+        "type": "open_access",
         "link": "https://huggingface.co/microsoft/phi-4"  
       },
       "Sound": {

@@ -37,6 +37,8 @@ function generateTable(leaderboardData) {
             row.classList.add('open_source');
         } else if (entry.info.type === 'proprietary') {
             row.classList.add('proprietary');
+        } else if (entry.info.type === 'open_access') {
+            row.classList.add('open_access');
         }
 
         // Assign medals to the top 3 performers in the sorted list (excluding fixed entries)
@@ -120,6 +122,7 @@ function generateTableV15(leaderboardData) {
         else if (entry.info.type === 'random_guess') row.classList.add('random_guess');
         else if (entry.info.type === 'open_source') row.classList.add('open_source');
         else if (entry.info.type === 'proprietary') row.classList.add('proprietary');
+        else if (entry.info.type === 'open_access') row.classList.add('open_access');
 
         let medal = "";
         if (entry.rank === 0) medal = " 🥇";
@@ -181,6 +184,7 @@ function generateTableV15Parsed(leaderboardData) {
         else if (entry.info.type === 'random_guess') row.classList.add('random_guess');
         else if (entry.info.type === 'open_source') row.classList.add('open_source');
         else if (entry.info.type === 'proprietary') row.classList.add('proprietary');
+        else if (entry.info.type === 'open_access') row.classList.add('open_access');
 
         let medal = "";
         if (entry.rank === 0) medal = " 🥇";

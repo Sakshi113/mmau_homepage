@@ -163,6 +163,10 @@ body {
   background-color: rgba(187, 235, 240, 0.3) !important; /* Light teal */
 }
 
+.open_access {
+  background-color: rgba(187, 235, 240, 0.3) !important; /* Light teal */
+}
+
 .leaderboard-label {
   padding: 5px 10px;
   margin-right: 10px;
