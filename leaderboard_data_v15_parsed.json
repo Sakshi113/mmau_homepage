@@ -2,6 +2,30 @@
   "leaderboardData": [
     {
       "info": {
+        "name": "Omni-R1",
+        "size": "8.2B",
+        "type": "open_source",
+        "link": "https://huggingface.co/nvidia/audio-flamingo"  
+      },
+      "Sound": {
+        "Test-mini": "81.7",
+        "Test": "78.3"
+      },
+      "Music": {
+        "Test-mini": "73.4",
+        "Test": "70.8"
+      },
+      "Speech": {
+        "Test-mini": "76.0",
+        "Test": "75.8"
+      },
+      "Avg": {
+        "Test-mini": "77.0",
+        "Test": "75.0"
+      }
+    },
+    {
+      "info": {
         "name": "Audio Flamingo Chat",
         "size": "2.2B",
         "type": "open_source",
@@ -22,6 +46,30 @@
       "Avg": {
         "Test-mini": "-",
         "Test": "-"
+      }
+    },
+    {
+      "info": {
+        "name": "Audio Flamingo 2",
+        "size": "3B",
+        "type": "open_source",
+        "link": "https://huggingface.co/nvidia/audio-flamingo"  
+      },
+      "Sound": {
+        "Test-mini": "71.5",
+        "Test": "68.1"
+      },
+      "Music": {
+        "Test-mini": "70.1",
+        "Test": "70.2"
+      },
+      "Speech": {
+        "Test-mini": "44.7",
+        "Test": "44.9"
+      },
+      "Avg": {
+        "Test-mini": "62.4",
+        "Test": "60.4"
       }
     },
     {
@@ -200,20 +248,20 @@
         "link": "https://huggingface.co/spaces/sonalkum/GAMA"
       },
       "Sound": {
-        "Test-mini": "75.98",
-        "Test": "80.33"
+        "Test-mini": "-",
+        "Test": "-"
       },
       "Music": {
-        "Test-mini": "68.40",
-        "Test": "69.83"
+        "Test-mini": "-",
+        "Test": "-"
       },
       "Speech": {
-        "Test-mini": "84.98",
-        "Test": "87.30"
+        "Test-mini": "-",
+        "Test": "-"
       },
       "Avg": {
-        "Test-mini": "76.83",
-        "Test": "79.66"
+        "Test-mini": "-",
+        "Test": "-"
       }
     },  
     {
@@ -224,20 +272,20 @@
         "link": "https://huggingface.co/spaces/sonalkum/GAMA-IT"
       },
       "Sound": {
-        "Test-mini": "74.77",
-        "Test": "74.37"
+        "Test-mini": "-",
+        "Test": "-"
       },
       "Music": {
-        "Test-mini": "54.86",
-        "Test": "54.75"
+        "Test-mini": "-",
+        "Test": "-"
       },
       "Speech": {
-        "Test-mini": "80.48",
-        "Test": "82.33"
+        "Test-mini": "-",
+        "Test": "-"
       },
       "Avg": {
-        "Test-mini": "70.75",
-        "Test": "71.33"
+        "Test-mini": "-",
+        "Test": "-"
       }
     },
     {
