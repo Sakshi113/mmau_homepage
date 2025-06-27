@@ -212,7 +212,7 @@ function generateTableV15Parsed(leaderboardData) {
 }
 
 function loadV15ParsedLeaderboard() {
-    fetch('./leaderboard_data_v15_parsed.jsonn')  // Path to new leaderboard JSON
+    fetch('./leaderboard_data_v15_parsed.json')  // Path to new leaderboard JSON
         .then(response => response.json())
         .then(data => generateTableV15Parsed(data))
         .catch(error => console.error('Error loading v1.5 JSON data:', error));
