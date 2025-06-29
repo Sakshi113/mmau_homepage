@@ -5,7 +5,7 @@
         "name": "Omni-R1",
         "size": "8.2B",
         "type": "open_access",
-        "link": "https://huggingface.co/nvidia/audio-flamingo"  
+        "link": "https://arxiv.org/abs/2505.09439v1"  
       },
       "Sound": {
         "Test-mini": "81.7",
