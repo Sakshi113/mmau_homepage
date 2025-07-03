@@ -2,10 +2,106 @@
   "leaderboardData": [
     {
       "info": {
+        "name": "Kimi-Audio",
+        "size": "8.2B",
+        "type": "open_access",
+        "link": "https://arxiv.org/abs/2504.18425"
+      },
+      "Sound": {
+        "Test-mini": "75.68",
+        "Test": "70.70"
+      },
+      "Music": {
+        "Test-mini": "66.77",
+        "Test": "65.93"
+      },
+      "Speech": {
+        "Test-mini": "62.16",
+        "Test": "56.57"
+      },
+      "Avg": {
+        "Test-mini": "68.20",
+        "Test": "64.40"
+      }
+    },
+    {
+      "info": {
+        "name": "AF2 Reasoning",
+        "size": "3B",
+        "type": "open_source",
+        "link": "--"
+      },
+      "Sound": {
+        "Test-mini": "77.48",
+        "Test": "75.43"
+      },
+      "Music": {
+        "Test-mini": "73.95",
+        "Test": "70.00"
+      },
+      "Speech": {
+        "Test-mini": "45.65",
+        "Test": "45.71"
+      },
+      "Avg": {
+        "Test-mini": "65.69",
+        "Test": "63.72"
+      }
+    },
+    {
+      "info": {
+        "name": "Qwen2-Audio",
+        "size": "8.3B",
+        "type": "open_access",
+        "link": "https://arxiv.org/abs/2407.10759"
+      },
+      "Sound": {
+        "Test-mini": "66.97",
+        "Test": "60.40"
+      },
+      "Music": {
+        "Test-mini": "53.89",
+        "Test": "52.93"
+      },
+      "Speech": {
+        "Test-mini": "54.35",
+        "Test": "53.17"
+      },
+      "Avg": {
+        "Test-mini": "58.40",
+        "Test": "55.50"
+      }
+    },
+    {
+      "info": {
+        "name": "Phi-4",
+        "size": "14B",
+        "type": "open_access",
+        "link": "https://huggingface.co/microsoft/phi-4"
+      },
+      "Sound": {
+        "Test-mini": "65.47",
+        "Test": "62.63"
+      },
+      "Music": {
+        "Test-mini": "64.37",
+        "Test": "61.73"
+      },
+      "Speech": {
+        "Test-mini": "67.27",
+        "Test": "63.50"
+      },
+      "Avg": {
+        "Test-mini": "65.70",
+        "Test": "62.62"
+      }
+    },
+    {
+      "info": {
         "name": "Omni-R1",
         "size": "8.2B",
         "type": "open_access",
-        "link": "https://huggingface.co/nvidia/audio-flamingo"  
+        "link": "https://arxiv.org/abs/2505.09439"
       },
       "Sound": {
         "Test-mini": "81.7",
@@ -29,23 +125,23 @@
         "name": "Audio Flamingo Chat",
         "size": "2.2B",
         "type": "open_source",
-        "link": "https://huggingface.co/nvidia/audio-flamingo"  
+        "link": "https://huggingface.co/nvidia/audio-flamingo"
       },
       "Sound": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "24.92",
+        "Test": "23.40"
       },
       "Music": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "17.66",
+        "Test": "15.70"
       },
       "Speech": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "6.91",
+        "Test": "7.77"
       },
       "Avg": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "16.50",
+        "Test": "15.62"
       }
     },
     {
@@ -53,7 +149,7 @@
         "name": "Audio Flamingo 2",
         "size": "3B",
         "type": "open_source",
-        "link": "https://huggingface.co/nvidia/audio-flamingo"  
+        "link": "https://huggingface.co/nvidia/audio-flamingo"
       },
       "Sound": {
         "Test-mini": "71.5",
@@ -77,23 +173,23 @@
         "name": "Audio Reasoner",
         "size": "7B",
         "type": "open_access",
-        "link": "https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main"  
+        "link": "https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main"
       },
       "Sound": {
-        "Test-mini": "67.57",
-        "Test": "65.90"
+        "Test-mini": "67.87",
+        "Test": "67.27"
       },
       "Music": {
         "Test-mini": "69.16",
-        "Test": "61.20"
+        "Test": "61.50"
       },
       "Speech": {
-        "Test-mini": "73.27",
-        "Test": "74.21"
+        "Test-mini": "65.77",
+        "Test": "62.64"
       },
       "Avg": {
-        "Test-mini": "",
-        "Test": "66.91"
+        "Test-mini": "67.60",
+        "Test": "63.80"
       }
     },
     {
@@ -101,7 +197,7 @@
         "name": "Pengi",
         "size": "323M",
         "type": "open_source",
-        "link": "https://arxiv.org/pdf/2305.11834"  
+        "link": "https://arxiv.org/pdf/2305.11834"
       },
       "Sound": {
         "Test-mini": "-",
@@ -125,23 +221,23 @@
         "name": "LTU",
         "size": "7B",
         "type": "open_source",
-        "link": "https://openreview.net/pdf?id=nBZBPXdJlC"  
+        "link": "https://openreview.net/pdf?id=nBZBPXdJlC"
       },
       "Sound": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "20.42",
+        "Test": "20.70"
       },
       "Music": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "16.32",
+        "Test": "15.24"
       },
       "Speech": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "14.71",
+        "Test": "15.17"
       },
       "Avg": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "17.15",
+        "Test": "17.04"
       }
     },
     {
@@ -152,20 +248,20 @@
         "link": "https://arxiv.org/pdf/2310.13289"
       },
       "Sound": {
-        "Test-mini": "54.35",
-        "Test": "57.80"
+        "Test-mini": "40.84",
+        "Test": "41.87"
       },
       "Music": {
-        "Test-mini": "47.01",
-        "Test": "49.13"
+        "Test-mini": "36.23",
+        "Test": "36.10"
       },
       "Speech": {
-        "Test-mini": "71.47",
-        "Test": "72.30"
+        "Test-mini": "26.13",
+        "Test": "28.13"
       },
       "Avg": {
-        "Test-mini": "57.06",
-        "Test": "59.74"
+        "Test-mini": "34.40",
+        "Test": "35.37"
       }
     },
     {
@@ -176,20 +272,20 @@
         "link": "https://huggingface.co/m-a-p/MusiLingo-long-v1"
       },
       "Sound": {
-        "Test-mini": "58.26",
-        "Test": "55.97"
+        "Test-mini": "43.24",
+        "Test": "41.83"
       },
       "Music": {
-        "Test-mini": "52.69",
-        "Test": "52.40"
+        "Test-mini": "39.82",
+        "Test": "40.93"
       },
       "Speech": {
-        "Test-mini": "68.47",
-        "Test": "69.07"
+        "Test-mini": "31.23",
+        "Test": "31.57"
       },
       "Avg": {
-        "Test-mini": "",
-        "Test": "59.14"
+        "Test-mini": "38.10",
+        "Test": "38.11"
       }
     },
     {
@@ -200,20 +296,20 @@
         "link": "https://arxiv.org/pdf/2308.11276"
       },
       "Sound": {
-        "Test-mini": "59.46",
-        "Test": "59.97"
+        "Test-mini": "33.03",
+        "Test": "30.97"
       },
       "Music": {
-        "Test-mini": "57.49",
-        "Test": "56.43"
+        "Test-mini": "32.04",
+        "Test": "28.33"
       },
       "Speech": {
-        "Test-mini": "73.27",
-        "Test": "77.53"
+        "Test-mini": "15.92",
+        "Test": "16.20"
       },
       "Avg": {
-        "Test-mini": "63.40",
-        "Test": "64.64"
+        "Test-mini": "26.99",
+        "Test": "25.17"
       }
     },
     {
@@ -224,20 +320,20 @@
         "link": "https://huggingface.co/M2UGen/M2UGen-MusicGen-medium"
       },
       "Sound": {
-        "Test-mini": "57.96",
-        "Test": "58.63"
+        "Test-mini": "43.24",
+        "Test": "44.97"
       },
       "Music": {
-        "Test-mini": "61.68",
-        "Test": "61.30"
+        "Test-mini": "37.13",
+        "Test": "38.53"
       },
       "Speech": {
-        "Test-mini": "75.68",
-        "Test": "79.80"
+        "Test-mini": "33.33",
+        "Test": "35.77"
       },
       "Avg": {
-        "Test-mini": "65.10",
-        "Test": "66.58"
+        "Test-mini": "37.90",
+        "Test": "39.76"
       }
     },
     {
@@ -248,22 +344,22 @@
         "link": "https://huggingface.co/spaces/sonalkum/GAMA"
       },
       "Sound": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "32.13",
+        "Test": "30.97"
       },
       "Music": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "15.62",
+        "Test": "16.35"
       },
       "Speech": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "12.61",
+        "Test": "16.40"
       },
       "Avg": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "20.12",
+        "Test": "21.24"
       }
-    },  
+    },
     {
       "info": {
         "name": "GAMA-IT",
@@ -272,20 +368,20 @@
         "link": "https://huggingface.co/spaces/sonalkum/GAMA-IT"
       },
       "Sound": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "30.93",
+        "Test": "31.90"
       },
       "Music": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "25.35",
+        "Test": "20.64"
       },
       "Speech": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "10.21",
+        "Test": "11.30"
       },
       "Avg": {
-        "Test-mini": "-",
-        "Test": "-"
+        "Test-mini": "22.16",
+        "Test": "21.28"
       }
     },
     {
@@ -314,26 +410,26 @@
     },
     {
       "info": {
-        "name": "Qwen2.5 omni",
+        "name": "Qwen2.5-Omni",
         "size": "8.2B",
         "type": "open_access",
-        "link": ""
+        "link": "https://arxiv.org/abs/2503.20215"
       },
       "Sound": {
-        "Test-mini": "78.1",
-        "Test": "74.9"
+        "Test-mini": "81.68",
+        "Test": "76.43"
       },
       "Music": {
-        "Test-mini": "65.9",
-        "Test": "68.0"
+        "Test-mini": "72.46",
+        "Test": "66.73"
       },
       "Speech": {
-        "Test-mini": "70.6",
-        "Test": "72.4"
+        "Test-mini": "73.27",
+        "Test": "70.20"
       },
       "Avg": {
-        "Test-mini": "71.5",
-        "Test": "71.8"
+        "Test-mini": "75.80",
+        "Test": "71.12"
       }
     },
     {
@@ -341,7 +437,7 @@
         "name": "Phi-4",
         "size": "14B",
         "type": "open_access",
-        "link": "https://huggingface.co/microsoft/phi-4"  
+        "link": "https://huggingface.co/microsoft/phi-4"
       },
       "Sound": {
         "Test-mini": "65.47",
