@@ -50,6 +50,54 @@
     },
     {
       "info": {
+        "name": "Qwen2-Audio",
+        "size": "8.3B",
+        "type": "open_access",
+        "link": "https://arxiv.org/abs/2407.10759"
+      },
+      "Sound": {
+        "Test-mini": "66.97",
+        "Test": "60.40"
+      },
+      "Music": {
+        "Test-mini": "53.89",
+        "Test": "52.93"
+      },
+      "Speech": {
+        "Test-mini": "54.35",
+        "Test": "53.17"
+      },
+      "Avg": {
+        "Test-mini": "58.40",
+        "Test": "55.50"
+      }
+    },
+    {
+      "info": {
+        "name": "Phi-4",
+        "size": "14B",
+        "type": "open_access",
+        "link": "https://huggingface.co/microsoft/phi-4"
+      },
+      "Sound": {
+        "Test-mini": "65.47",
+        "Test": "62.63"
+      },
+      "Music": {
+        "Test-mini": "64.37",
+        "Test": "61.73"
+      },
+      "Speech": {
+        "Test-mini": "67.27",
+        "Test": "63.50"
+      },
+      "Avg": {
+        "Test-mini": "65.70",
+        "Test": "62.62"
+      }
+    },
+    {
+      "info": {
         "name": "Omni-R1",
         "size": "8.2B",
         "type": "open_access",
