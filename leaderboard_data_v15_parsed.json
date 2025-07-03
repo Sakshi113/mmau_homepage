@@ -431,30 +431,6 @@
         "Test-mini": "75.80",
         "Test": "71.12"
       }
-    },
-    {
-      "info": {
-        "name": "Phi-4",
-        "size": "14B",
-        "type": "open_access",
-        "link": "https://huggingface.co/microsoft/phi-4"
-      },
-      "Sound": {
-        "Test-mini": "65.47",
-        "Test": "62.97"
-      },
-      "Music": {
-        "Test-mini": "65.57",
-        "Test": "61.03"
-      },
-      "Speech": {
-        "Test-mini": "69.07",
-        "Test": "64.70"
-      },
-      "Avg": {
-        "Test-mini": "66.70",
-        "Test": "62.90"
-      }
     }
   ]
 }
