@@ -162,6 +162,10 @@
       "Speech": {
         "Test-mini": "44.7",
         "Test": "44.9"
+      },
+      "Avg": {
+        "Test-mini": "62.4",
+        "Test": "60.4"
       }
     },
     {
@@ -359,7 +363,7 @@
     {
       "info": {
         "name": "Qwen2.5-Omni",
-        "size": "7B",
+        "size": "8.2B",
         "type": "open_access",
         "link": "https://arxiv.org/abs/2503.20215"
       },
