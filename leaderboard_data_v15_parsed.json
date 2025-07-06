@@ -26,7 +26,7 @@
     },
     {
       "info": {
-        "name": "Omni-R1",
+        "name": "Omni-R1 (FT on Qwen2.5-Omni)",
         "size": "8.2B",
         "type": "fine_tuned",
         "link": "https://arxiv.org/abs/2505.09439"
@@ -50,9 +50,9 @@
     },
     {
       "info": {
-        "name": "Audio Flamingo 2 Reasoning",
+        "name": "Audio Flamingo 2 Reasoning (FT on AF2)",
         "size": "3B",
-        "type": "open_source",
+        "type": "fine_tuned",
         "link": "--"
       },
       "Sound": {
@@ -123,7 +123,7 @@
     {
       "info": {
         "name": "Audio Reasoner",
-        "size": "7B",
+        "size": "8.3B",
         "type": "open_access",
         "link": "https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main"
       },
@@ -387,7 +387,7 @@
     {
       "info": {
         "name": "Gemini 2.5 Flash",
-        "size": "unk",
+        "size": "-",
         "type": "proprietary",
         "link": "https://ai.google.dev/gemini-api/docs/models"
       },
@@ -411,7 +411,7 @@
     {
       "info": {
         "name": "Gemini 2.0 Flash",
-        "size": "unk",
+        "size": "-",
         "type": "proprietary",
         "link": "https://ai.google.dev/gemini-api/docs/models"
       },
@@ -435,7 +435,7 @@
     {
       "info": {
         "name": "Gemini 2.5 Flash Lite",
-        "size": "unk",
+        "size": "-",
         "type": "proprietary",
         "link": "https://ai.google.dev/gemini-api/docs/models"
       },
@@ -459,7 +459,7 @@
     {
       "info": {
         "name": "Gemini 2.5 Pro",
-        "size": "unk",
+        "size": "-",
         "type": "proprietary",
         "link": "https://ai.google.dev/gemini-api/docs/models"
       },
@@ -483,7 +483,7 @@
     {
       "info": {
         "name": "GPT-4o mini Audio",
-        "size": "unk",
+        "size": "-",
         "type": "proprietary",
         "link": "https://arxiv.org/abs/2410.21276"
       },
@@ -507,7 +507,7 @@
     {
       "info": {
         "name": "GPT-4o Audio",
-        "size": "unk",
+        "size": "-",
         "type": "proprietary",
         "link": "https://arxiv.org/abs/2410.21276"
       },
