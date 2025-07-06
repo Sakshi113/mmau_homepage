@@ -368,20 +368,164 @@
         "link": "https://arxiv.org/abs/2503.20215"
       },
       "Sound": {
-        "Test-mini": "81.98",
+        "Test-mini": "78.10",
         "Test": "76.77"
       },
       "Music": {
-        "Test-mini": "72.75",
+        "Test-mini": "65.90",
         "Test": "67.33"
       },
       "Speech": {
-        "Test-mini": "72.97",
+        "Test-mini": "70.60",
         "Test": "68.90"
       },
       "Avg": {
-        "Test-mini": "75.90",
+        "Test-mini": "71.50",
         "Test": "71.00"
+      }
+    },
+    {
+      "info": {
+        "name": "Gemini 2.5 Flash",
+        "size": "unk",
+        "type": "proprietary",
+        "link": "https://ai.google.dev/gemini-api/docs/models"
+      },
+      "Sound": {
+        "Test-mini": "73.27",
+        "Test": "69.50"
+      },
+      "Music": {
+        "Test-mini": "65.57",
+        "Test": "69.40"
+      },
+      "Speech": {
+        "Test-mini": "76.58",
+        "Test": "68.27"
+      },
+      "Avg": {
+        "Test-mini": "71.80",
+        "Test": "67.39"
+      }
+    },
+    {
+      "info": {
+        "name": "Gemini 2.0 Flash",
+        "size": "unk",
+        "type": "proprietary",
+        "link": "https://ai.google.dev/gemini-api/docs/models"
+      },
+      "Sound": {
+        "Test-mini": "71.17",
+        "Test": "68.93"
+      },
+      "Music": {
+        "Test-mini": "65.27",
+        "Test": "59.30"
+      },
+      "Speech": {
+        "Test-mini": "75.08",
+        "Test": "72.87"
+      },
+      "Avg": {
+        "Test-mini": "70.50",
+        "Test": "67.03"
+      }
+    },
+    {
+      "info": {
+        "name": "Gemini 2.5 Flash Lite",
+        "size": "unk",
+        "type": "proprietary",
+        "link": "https://ai.google.dev/gemini-api/docs/models"
+      },
+      "Sound": {
+        "Test-mini": "63.06",
+        "Test": "62.50"
+      },
+      "Music": {
+        "Test-mini": "63.47",
+        "Test": "54.87"
+      },
+      "Speech": {
+        "Test-mini": "72.07",
+        "Test": "67.47"
+      },
+      "Avg": {
+        "Test-mini": "66.20",
+        "Test": "61.61"
+      }
+    },
+    {
+      "info": {
+        "name": "Gemini 2.5 Pro",
+        "size": "unk",
+        "type": "proprietary",
+        "link": "https://ai.google.dev/gemini-api/docs/models"
+      },
+      "Sound": {
+        "Test-mini": "75.08",
+        "Test": "70.63"
+      },
+      "Music": {
+        "Test-mini": "68.26",
+        "Test": "64.77"
+      },
+      "Speech": {
+        "Test-mini": "71.47",
+        "Test": "72.67"
+      },
+      "Avg": {
+        "Test-mini": "71.60",
+        "Test": "69.36"
+      }
+    },
+    {
+      "info": {
+        "name": "GPT-4o mini Audio",
+        "size": "unk",
+        "type": "proprietary",
+        "link": "https://arxiv.org/abs/2410.21276"
+      },
+      "Sound": {
+        "Test-mini": "29.43",
+        "Test": "29.77"
+      },
+      "Music": {
+        "Test-mini": "22.46",
+        "Test": "20.60"
+      },
+      "Speech": {
+        "Test-mini": "45.95",
+        "Test": "47.67"
+      },
+      "Avg": {
+        "Test-mini": "32.60",
+        "Test": "32.68"
+      }
+    },
+    {
+      "info": {
+        "name": "GPT-4o Audio",
+        "size": "unk",
+        "type": "proprietary",
+        "link": "https://arxiv.org/abs/2410.21276"
+      },
+      "Sound": {
+        "Test-mini": "36.64",
+        "Test": "34.57"
+      },
+      "Music": {
+        "Test-mini": "34.43",
+        "Test": "32.60"
+      },
+      "Speech": {
+        "Test-mini": "56.76",
+        "Test": "56.43"
+      },
+      "Avg": {
+        "Test-mini": "42.60",
+        "Test": "41.20"
       }
     }
   ]
