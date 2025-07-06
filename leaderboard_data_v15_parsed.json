@@ -482,7 +482,7 @@
     },
     {
       "info": {
-        "name": "GPT-4o mini Audio",
+        "name": "GPT-4o mini Audio*",
         "size": "-",
         "type": "proprietary",
         "link": "https://arxiv.org/abs/2410.21276"
@@ -506,7 +506,7 @@
     },
     {
       "info": {
-        "name": "GPT-4o Audio",
+        "name": "GPT-4o Audio*",
         "size": "-",
         "type": "proprietary",
         "link": "https://arxiv.org/abs/2410.21276"
