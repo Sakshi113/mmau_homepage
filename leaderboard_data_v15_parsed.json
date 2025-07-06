@@ -28,7 +28,7 @@
       "info": {
         "name": "Omni-R1",
         "size": "8.2B",
-        "type": "open_access",
+        "type": "fine_tuned",
         "link": "https://arxiv.org/abs/2505.09439"
       },
       "Sound": {
@@ -56,20 +56,20 @@
         "link": "--"
       },
       "Sound": {
-        "Test-mini": "77.48",
-        "Test": "75.43"
+        "Test-mini": "75.98",
+        "Test": "75.23"
       },
       "Music": {
-        "Test-mini": "73.95",
-        "Test": "70.00"
+        "Test-mini": "74.25",
+        "Test": "71.20"
       },
       "Speech": {
-        "Test-mini": "45.65",
-        "Test": "48.17"
+        "Test-mini": "43.54",
+        "Test": "47.67"
       },
       "Avg": {
-        "Test-mini": "65.69",
-        "Test": "64.53"
+        "Test-mini": "64.59",
+        "Test": "64.70"
       }
     },
     {
