@@ -26,7 +26,7 @@
     },
     {
       "info": {
-        "name": "Omni-R1",
+        "name": "Omni-R1 (FT on Qwen2.5-Omni)",
         "size": "8.2B",
         "type": "fine_tuned",
         "link": "https://arxiv.org/abs/2505.09439"
@@ -50,9 +50,9 @@
     },
     {
       "info": {
-        "name": "Audio Flamingo 2 Reasoning",
+        "name": "Audio Flamingo 2 Reasoning (FT on AF2)",
         "size": "3B",
-        "type": "open_source",
+        "type": "fine_tuned",
         "link": "--"
       },
       "Sound": {
