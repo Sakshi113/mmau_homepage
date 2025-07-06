@@ -289,7 +289,7 @@
         "info": {
           "name": "Qwen-Audio-Chat",
           "size": "8.4B",
-          "type": "open_source",
+          "type": "open_access",
           "link": "https://huggingface.co/Qwen/Qwen-Audio-Chat"
         },
         "Sound": {
@@ -313,7 +313,7 @@
         "info": {
           "name": "Qwen2-Audio",
           "size": "8.4B",
-          "type": "open_source",
+          "type": "open_access",
           "link": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
         },
         "Sound": {
@@ -337,7 +337,7 @@
         "info": {
           "name": "Qwen2-Audio-Instruct",
           "size": "8.2B",
-          "type": "open_source",
+          "type": "open_access",
           "link": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
         },
         "Sound": {
@@ -553,7 +553,7 @@
         "info": {
           "name": "R1-AQA (Qwen2-Audio-7B-Instruct + GRPO)",
           "size": "8.2B",
-          "type": "open_source",
+          "type": "fine_tuned",
           "link": "https://github.com/xiaomi-research/r1-aqa"  
         },
         "Sound": {
