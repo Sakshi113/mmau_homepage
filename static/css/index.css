@@ -156,16 +156,21 @@ body {
 }
 
 .open_source {
-  background-color: rgb(240, 229, 245) !important; /* Soft lavender */
+  background-color: rgba(118, 185, 0, 0.172) !important; /* Light teal */
 }
 
 .proprietary {
-  background-color: rgba(187, 235, 240, 0.3) !important; /* Light teal */
+  background-color: rgba(211, 211, 211, 0.172) !important; /* Light teal */
 }
 
 .open_access {
+  background-color: rgb(240, 229, 245) !important; /* Soft lavender */
+}
+
+.fine_tuned {
   background-color: rgba(187, 235, 240, 0.3) !important; /* Light teal */
 }
+
 
 .leaderboard-label {
   padding: 5px 10px;
