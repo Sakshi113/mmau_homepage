@@ -188,6 +188,7 @@ function generateTableV15Parsed(leaderboardData) {
         else if (entry.info.type === 'open_source') row.classList.add('open_source');
         else if (entry.info.type === 'proprietary') row.classList.add('proprietary');
         else if (entry.info.type === 'open_access') row.classList.add('open_access');
+        else if (entry.info.type === 'fine_tuned') row.classList.add('fine_tuned');
 
         let medal = "";
         if (entry.rank === 0) medal = " 🥇";
