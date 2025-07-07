@@ -556,7 +556,7 @@
       "info": {
         "name": "Gemma 3n",
         "size": "4B",
-        "type": "proprietary",
+        "type": "open_access",
         "link": "https://deepmind.google/models/gemma/gemma-3n/"
       },
       "Sound": {
