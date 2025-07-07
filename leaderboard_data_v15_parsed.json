@@ -488,20 +488,20 @@
         "link": "https://arxiv.org/abs/2410.21276"
       },
       "Sound": {
-        "Test-mini": "29.43",
-        "Test": "29.77"
+        "Test-mini": "50.75",
+        "Test": "49.67"
       },
       "Music": {
-        "Test-mini": "22.46",
-        "Test": "20.60"
+        "Test-mini": "39.22",
+        "Test": "35.97"
       },
       "Speech": {
-        "Test-mini": "45.95",
-        "Test": "47.67"
+        "Test-mini": "69.07",
+        "Test": "67.47"
       },
       "Avg": {
-        "Test-mini": "32.60",
-        "Test": "32.68"
+        "Test-mini": "53.00",
+        "Test": "51.03"
       }
     },
     {
@@ -512,20 +512,20 @@
         "link": "https://arxiv.org/abs/2410.21276"
       },
       "Sound": {
-        "Test-mini": "36.64",
-        "Test": "34.57"
+        "Test-mini": "64.56",
+        "Test": "63.20"
       },
       "Music": {
-        "Test-mini": "34.43",
-        "Test": "32.60"
+        "Test-mini": "56.29",
+        "Test": "49.93"
       },
       "Speech": {
-        "Test-mini": "56.76",
-        "Test": "56.43"
+        "Test-mini": "66.67",
+        "Test": "69.33"
       },
       "Avg": {
-        "Test-mini": "42.60",
-        "Test": "41.20"
+        "Test-mini": "62.50",
+        "Test": "60.82"
       }
     }
   ]
