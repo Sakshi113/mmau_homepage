@@ -123,7 +123,7 @@
     {
       "info": {
         "name": "Audio Reasoner",
-        "size": "8.3B",
+        "size": "8.2B",
         "type": "open_access",
         "link": "https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main"
       },
@@ -526,6 +526,54 @@
       "Avg": {
         "Test-mini": "62.50",
         "Test": "60.82"
+      }
+    },
+    {
+      "info": {
+        "name": "Gemma 3n",
+        "size": "2B",
+        "type": "open_access",
+        "link": "https://deepmind.google/models/gemma/gemma-3n/"
+      },
+      "Sound": {
+        "Test-mini": "51.35",
+        "Test": "47.47"
+      },
+      "Music": {
+        "Test-mini": "52.10",
+        "Test": "51.63"
+      },
+      "Speech": {
+        "Test-mini": "52.22",
+        "Test": "57.07"
+      },
+      "Avg": {
+        "Test-mini": "51.69",
+        "Test": "52.06"
+      }
+    },
+    {
+      "info": {
+        "name": "Gemma 3n",
+        "size": "4B",
+        "type": "proprietary",
+        "link": "https://deepmind.google/models/gemma/gemma-3n/"
+      },
+      "Sound": {
+        "Test-mini": "55.86",
+        "Test": "50.27"
+      },
+      "Music": {
+        "Test-mini": "56.89",
+        "Test": "53.20"
+      },
+      "Speech": {
+        "Test-mini": "61.26",
+        "Test": "62.13"
+      },
+      "Avg": {
+        "Test-mini": "58.00",
+        "Test": "55.20"
       }
     }
   ]
