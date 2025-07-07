@@ -98,8 +98,8 @@
     },
     {
       "info": {
-        "name": "Phi-4",
-        "size": "14B",
+        "name": "Phi-4-multimodal",
+        "size": "5.5B",
         "type": "open_access",
         "link": "https://huggingface.co/microsoft/phi-4"
       },
@@ -152,20 +152,20 @@
         "link": "https://huggingface.co/nvidia/audio-flamingo"
       },
       "Sound": {
-        "Test-mini": "71.5",
-        "Test": "68.1"
+        "Test-mini": "71.47",
+        "Test": "68.13"
       },
       "Music": {
-        "Test-mini": "70.1",
-        "Test": "70.2"
+        "Test-mini": "70.96",
+        "Test": "70.20"
       },
       "Speech": {
-        "Test-mini": "44.7",
-        "Test": "44.9"
+        "Test-mini": "44.74",
+        "Test": "44.87"
       },
       "Avg": {
-        "Test-mini": "62.4",
-        "Test": "60.4"
+        "Test-mini": "62.40",
+        "Test": "61.06"
       }
     },
     {
