@@ -2,8 +2,32 @@
   "leaderboardData": [
     {
       "info": {
+        "name": "Audio Flamingo 3",
+        "size": "8.2B",
+        "type": "open_source",
+        "link": "https://www.arxiv.org/abs/2507.08128"
+      },
+      "Sound": {
+        "Test-mini": "79.58",
+        "Test": "75.83"
+      },
+      "Music": {
+        "Test-mini": "66.77",
+        "Test": "74.47"
+      },
+      "Speech": {
+        "Test-mini": "66.37",
+        "Test": "66.97"
+      },
+      "Avg": {
+        "Test-mini": "73.30",
+        "Test": "72.42"
+      }
+    },
+    {
+      "info": {
         "name": "Kimi-Audio",
-        "size": "7B",
+        "size": "8.2B",
         "type": "open_access",
         "link": "https://arxiv.org/abs/2504.18425"
       },
@@ -22,54 +46,6 @@
       "Avg": {
         "Test-mini": "68.20",
         "Test": "64.40"
-      }
-    },
-    {
-      "info": {
-        "name": "Omni-R1 (FT on Qwen2.5-Omni)",
-        "size": "8.2B",
-        "type": "fine_tuned",
-        "link": "https://arxiv.org/abs/2505.09439"
-      },
-      "Sound": {
-        "Test-mini": "81.7",
-        "Test": "78.3"
-      },
-      "Music": {
-        "Test-mini": "73.4",
-        "Test": "70.8"
-      },
-      "Speech": {
-        "Test-mini": "76.0",
-        "Test": "75.8"
-      },
-      "Avg": {
-        "Test-mini": "77.0",
-        "Test": "75.0"
-      }
-    },
-    {
-      "info": {
-        "name": "Audio Flamingo 2 Reasoning (FT on AF2)",
-        "size": "3B",
-        "type": "fine_tuned",
-        "link": "--"
-      },
-      "Sound": {
-        "Test-mini": "75.98",
-        "Test": "75.23"
-      },
-      "Music": {
-        "Test-mini": "74.25",
-        "Test": "71.20"
-      },
-      "Speech": {
-        "Test-mini": "43.54",
-        "Test": "47.67"
-      },
-      "Avg": {
-        "Test-mini": "64.59",
-        "Test": "64.70"
       }
     },
     {
