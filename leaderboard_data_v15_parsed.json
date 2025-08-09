@@ -26,6 +26,30 @@
     },
     {
       "info": {
+        "name": "DeSTA2.5-Audio",
+        "size": "8B",
+        "type": "open_source",
+        "link": "https://arxiv.org/abs/2507.02768"
+      },
+      "Sound": {
+        "Test-mini": "70.27",
+        "Test": "66.83"
+      },
+      "Music": {
+        "Test-mini": "56.29",
+        "Test": "57.10"
+      },
+      "Speech": {
+        "Test-mini": "71.47",
+        "Test": "71.94"
+      },
+      "Avg": {
+        "Test-mini": "66.00",
+        "Test": "65.21"
+      }
+    },
+    {
+      "info": {
         "name": "Kimi-Audio",
         "size": "8.2B",
         "type": "open_access",
