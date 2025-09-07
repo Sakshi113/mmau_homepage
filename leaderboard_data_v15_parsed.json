@@ -2,6 +2,30 @@
   "leaderboardData": [
     {
       "info": {
+        "name": "Step-2-Audio-API",
+        "size": "-",
+        "type": "closed",
+        "link": "https://arxiv.org/abs/2507.16632"
+      },
+      "Sound": {
+        "Test-mini": "84.04",
+        "Test": "80.60"
+      },
+      "Music": {
+        "Test-mini": "73.56",
+        "Test": "68.23"
+      },
+      "Speech": {
+        "Test-mini": "75.15",
+        "Test": "72.75"
+      },
+      "Avg": {
+        "Test-mini": "77.58",
+        "Test": "73.86"
+      }
+    },
+    {
+      "info": {
         "name": "Audio Flamingo 3",
         "size": "8.2B",
         "type": "open_source",
@@ -22,6 +46,30 @@
       "Avg": {
         "Test-mini": "73.30",
         "Test": "72.42"
+      }
+    },
+    {
+      "info": {
+        "name": "Step-2-Audio-mini",
+        "size": "7B",
+        "type": "open_source",
+        "link": "https://arxiv.org/abs/2507.16632"
+      },
+      "Sound": {
+        "Test-mini": "79.30",
+        "Test": "75.57"
+      },
+      "Music": {
+        "Test-mini": "68.44",
+        "Test": "66.85"
+      },
+      "Speech": {
+        "Test-mini": "68.16",
+        "Test": "66.49"
+      },
+      "Avg": {
+        "Test-mini": "72.73",
+        "Test": "70.23"
       }
     },
     {
