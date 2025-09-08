@@ -2,7 +2,7 @@
   "leaderboardData": [
     {
       "info": {
-        "name": "Step-2-Audio-API",
+        "name": "Step-Audio-2",
         "size": "-",
         "type": "closed",
         "link": "https://arxiv.org/abs/2507.16632"
@@ -50,9 +50,9 @@
     },
     {
       "info": {
-        "name": "Step-2-Audio-mini",
-        "size": "7B",
-        "type": "open_source",
+        "name": "Step-Audio-2-mini",
+        "size": "8.3B",
+        "type": "open_access",
         "link": "https://arxiv.org/abs/2507.16632"
       },
       "Sound": {
