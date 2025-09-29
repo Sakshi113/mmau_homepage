@@ -624,5 +624,30 @@
         "Test": "55.20"
       }
     }
+    ,
+    {
+      "info": {
+        "name": "Audio-Thinker",
+        "size": "8.4B",
+        "type": "closed",
+        "link": "https://arxiv.org/pdf/2508.08039v1"
+      },
+      "Sound": {
+        "Test-mini": "81.98",
+        "Test": "78.8"
+      },
+      "Music": {
+        "Test-mini": "74.25",
+        "Test": "73.8"
+      },
+      "Speech": {
+        "Test-mini": "76.88",
+        "Test": "75.16"
+      },
+      "Avg": {
+        "Test-mini": "77.7",
+        "Test": "75.98"
+      }
+    }
   ]
 }
