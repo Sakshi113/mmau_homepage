@@ -671,6 +671,30 @@
         "Test-mini": "74.7",
         "Test": "72.59"
       }
+    },
+    {
+      "info": {
+        "name": "Nova 2 Omni",
+        "size": "-",
+        "type": "closed",
+        "link": "https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models"
+      },
+      "Sound": {
+        "Test-mini": "81.08",
+        "Test": "77.87"
+      },
+      "Music": {
+        "Test-mini": "70.36",
+        "Test": "66.37"
+      },
+      "Speech": {
+        "Test-mini": "81.98",
+        "Test": "81.82"
+      },
+      "Avg": {
+        "Test-mini": "77.8",
+        "Test": "75.28"
+      }
     }
   ]
 }
