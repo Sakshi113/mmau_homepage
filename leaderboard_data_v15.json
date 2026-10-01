@@ -47,6 +47,54 @@
         "Test-mini": "64.59",
         "Test": "64.70"
       }
+    },
+    {
+      "info": {
+        "name": "Mizar-3B (FT on Ke-Omni-R-3B)",
+        "size": "3B",
+        "type": "fine_tuned",
+        "link": "https://huggingface.co/KaiyangLi/Mizar-3B"
+      },
+      "Sound": {
+        "Test-mini": "-",
+        "Test": "-"
+      },
+      "Music": {
+        "Test-mini": "-",
+        "Test": "-"
+      },
+      "Speech": {
+        "Test-mini": "-",
+        "Test": "-"
+      },
+      "Avg": {
+        "Test-mini": "-",
+        "Test": "72.78"
+      }
+    },
+    {
+      "info": {
+        "name": "Mizar-159M",
+        "size": "159M",
+        "type": "open_source",
+        "link": "https://huggingface.co/KaiyangLi/Mizar-159M"
+      },
+      "Sound": {
+        "Test-mini": "-",
+        "Test": "-"
+      },
+      "Music": {
+        "Test-mini": "-",
+        "Test": "-"
+      },
+      "Speech": {
+        "Test-mini": "-",
+        "Test": "-"
+      },
+      "Avg": {
+        "Test-mini": "-",
+        "Test": "53.13"
+      }
     }
   ]
 }
